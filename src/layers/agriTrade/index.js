@@ -57,10 +57,6 @@ function makeArrowCanvas(color) {
   ctx.lineTo(22, 12);
   ctx.lineTo(35, 27);
   ctx.stroke();
-  ctx.shadowBlur = 0;
-  ctx.lineWidth = 1.4;
-  ctx.strokeStyle = '#FFFFFF';
-  ctx.stroke();
   return canvas;
 }
 
@@ -169,10 +165,8 @@ export function createAgriTradeLayer({ crop, render }) {
           positions,
           arcType: Cesium.ArcType.NONE,
           width: 1.0 + 3.1 * strength,
-          material: new Cesium.PolylineGlowMaterialProperty({
-            glowPower: 0.15,
-            color: color.withAlpha(0.35 + 0.58 * strength),
-          }),
+          // Restore the original thin visual weight; keep true solid-color strokes, no glow.
+          material: new Cesium.ColorMaterialProperty(color.withAlpha(0.91)),
         },
         properties: {
           simulated: false,

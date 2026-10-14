@@ -42,44 +42,96 @@ export function installEarthSpin(viewer) {
   let resumeAfter = 0;
   const heldPointers = new Set();
   let removeFrameListener = null;
+  let celestialSnapshot = null;
+  const rotatedPosition = new Cesium.Cartesian3();
+  const rotatedDirection = new Cesium.Cartesian3();
+  const rotatedUp = new Cesium.Cartesian3();
+  const zRotation = new Cesium.Matrix3();
+
+  // Dock the compact orbit control above (rather than on top of) the right
+  // resilience lab. Settings open to the LEFT so the lab remains readable.
+  const style = document.createElement('style');
+  style.textContent = `
+    #gev-earth-spin-panel {
+      position: fixed; top: 24px; right: 140px; z-index: 2600;
+      width: 198px; max-width: calc(100vw - 24px);
+      color: #c6d9e8; background: rgba(4, 12, 25, .96);
+      border: 1px solid rgba(69, 151, 186, .45); border-radius: 11px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.38);
+      font: 600 11px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace;
+      letter-spacing: .025em;
+    }
+    #gev-earth-spin-panel button { font: inherit; cursor: pointer; }
+    #gev-earth-spin-panel .gev-spin-header {
+      display: flex; align-items: center; gap: 6px; padding: 6px 7px 6px 11px;
+    }
+    #gev-earth-spin-toggle {
+      flex: 1; min-width: 0; text-align: left;
+      background: transparent; border: 0; padding: 5px 0;
+      color: #aec3d2;
+    }
+    #gev-earth-spin-toggle[aria-pressed="true"] { color: #77f5de; }
+    #gev-earth-spin-settings-toggle {
+      flex: none; width: 29px; height: 27px;
+      border: 1px solid #30516b; border-radius: 7px;
+      background: #10283c; color: #9bd5ed;
+    }
+    #gev-earth-spin-settings-toggle[aria-expanded="true"],
+    #gev-earth-spin-settings-toggle:hover { border-color: #35d0ff; color: #dff9ff; }
+    #gev-earth-spin-settings {
+      position: absolute; top: 0; right: calc(100% + 10px);
+      box-sizing: border-box; width: 248px;
+      background: rgba(4, 12, 25, .98);
+      border: 1px solid rgba(69, 151, 186, .48);
+      border-radius: 11px; padding: 12px 14px 14px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.5);
+    }
+    #gev-earth-spin-settings[hidden] { display: none; }
+    #gev-earth-spin-settings .gev-spin-title {
+      color: #61d8f6; letter-spacing: .12em; font-size: 10px;
+      margin: 0 0 12px;
+    }
+    #gev-earth-spin-period { accent-color: #35d0ff; }
+    @media (max-width: 690px) {
+      #gev-earth-spin-panel { top: 14px; right: 12px; width: 192px; }
+      #gev-earth-spin-settings {
+        top: calc(100% + 9px); right: 0;
+        width: min(248px, calc(100vw - 24px));
+      }
+      /* A stacked layout gives the speed popover its own space. */
+      #gev-resilience-root { top: 240px; }
+      #gev-resilience-root .gev-lab-body { max-height: calc(100vh - 300px); }
+    }
+  `;
+  document.head.appendChild(style);
 
   const root = document.createElement('section');
   root.id = 'gev-earth-spin-panel';
-  root.style.cssText = [
-    'position:fixed', 'right:20px', 'bottom:90px', 'z-index:2500',
-    'width:260px', 'max-width:calc(100vw - 40px)',
-    'background:rgba(5,10,20,.95)', 'color:#c5c9d4',
-    'border:1px solid rgba(139,159,195,.23)', 'border-radius:12px',
-    'box-shadow:0 12px 36px rgba(0,0,0,.48)',
-    'font:600 11px/1.6 ui-monospace,SFMono-Regular,Menlo,monospace',
-    'letter-spacing:.08em', 'overflow:hidden',
-  ].join(';');
+  root.setAttribute('aria-label', '镜头环绕控制');
 
   const header = document.createElement('div');
-  header.style.cssText = 'display:flex;align-items:center;gap:8px;padding:8px 10px;';
+  header.className = 'gev-spin-header';
   const button = document.createElement('button');
   button.id = 'gev-earth-spin-toggle';
   button.type = 'button';
-  button.setAttribute('aria-label', '切换地球自转');
-  button.style.cssText = [
-    'flex:1', 'border:0', 'background:transparent', 'color:#9fb8c6',
-    'text-align:left', 'font:inherit', 'cursor:pointer', 'padding:4px 2px',
-  ].join(';');
+  button.setAttribute('aria-label', '切换镜头环绕');
   const expand = document.createElement('button');
   expand.id = 'gev-earth-spin-settings-toggle';
   expand.type = 'button';
   expand.setAttribute('aria-controls', 'gev-earth-spin-settings');
   expand.setAttribute('aria-expanded', 'false');
-  expand.setAttribute('aria-label', '展开地球自转速度设置');
-  expand.title = '展开／收起速度调节';
+  expand.setAttribute('aria-label', '展开镜头环绕速度设置');
+  expand.title = '速度设置';
   expand.textContent = '⚙';
-  expand.style.cssText = 'border:1px solid rgba(139,159,195,.25);border-radius:5px;background:rgba(255,255,255,.04);color:#9fb8c6;padding:3px 8px;cursor:pointer;';
   header.append(button, expand);
 
   const settings = document.createElement('div');
   settings.id = 'gev-earth-spin-settings';
   settings.hidden = true;
-  settings.style.cssText = 'border-top:1px solid rgba(139,159,195,.18);padding:13px 14px 15px;';
+  const title = document.createElement('div');
+  title.className = 'gev-spin-title';
+  title.textContent = 'CAMERA ORBIT · 速度设置';
+  settings.append(title);
   const label = document.createElement('label');
   label.setAttribute('for', 'gev-earth-spin-period');
   label.style.cssText = 'display:flex;justify-content:space-between;align-items:center;margin-bottom:7px;';
@@ -105,14 +157,35 @@ export function installEarthSpin(viewer) {
   root.append(header, settings);
 
   function syncUI() {
-    button.textContent = enabled ? '⟳ 地球自转 · ON' : '⟳ 地球自转 · OFF';
+    button.textContent = enabled ? '⟳ 镜头环绕 · ON' : '⟳ 镜头环绕 · OFF';
     button.setAttribute('aria-pressed', String(enabled));
-    button.style.color = enabled ? '#7fffe2' : '#a2b4c8';
     readout.textContent = `${periodMs / 1000} s`;
     range.value = String(periodMs / 1000);
-    button.title = `模拟地球自转 · ${periodMs / 1000} 秒一圈 · 拖拽暂停、松开恢复`;
+    button.title = `摄像机绕地轴环绕 · ${periodMs / 1000} 秒一圈 · 拖拽暂停、松开恢复；环绕期间隐藏动态星体`; 
   }
 
+  function hideMovingSky() {
+    if (celestialSnapshot) return;
+    const scene = viewer.scene;
+    celestialSnapshot = {
+      skyBox: scene.skyBox ? scene.skyBox.show : null,
+      sun: scene.sun ? scene.sun.show : null,
+      moon: scene.moon ? scene.moon.show : null,
+    };
+    // A real camera orbit changes the starfield perspective. Suppress moving
+    // celestial bodies while active rather than imply they stay fixed.
+    if (scene.skyBox) scene.skyBox.show = false;
+    if (scene.sun) scene.sun.show = false;
+    if (scene.moon) scene.moon.show = false;
+  }
+  function restoreSky() {
+    if (!celestialSnapshot) return;
+    const scene = viewer.scene;
+    if (scene.skyBox && celestialSnapshot.skyBox !== null) scene.skyBox.show = celestialSnapshot.skyBox;
+    if (scene.sun && celestialSnapshot.sun !== null) scene.sun.show = celestialSnapshot.sun;
+    if (scene.moon && celestialSnapshot.moon !== null) scene.moon.show = celestialSnapshot.moon;
+    celestialSnapshot = null;
+  }
   function tick() {
     const now = performance.now();
     if (!lastTime) lastTime = now;
@@ -125,7 +198,18 @@ export function installEarthSpin(viewer) {
     const camera = viewer.camera;
     if (!Cesium.Matrix4.equals(camera.transform, Cesium.Matrix4.IDENTITY)) return;
     const angle = (-2 * Math.PI * elapsed) / periodMs;
-    if (angle) camera.rotate(Cesium.Cartesian3.UNIT_Z, angle);
+    if (!angle) return;
+    // Rotate the *camera pose* around Earth's ECEF Z axis, preserving distance,
+    // camera tilt and the new user-selected view after a manual drag.
+    // No globe/entity/planet transforms are modified.
+    Cesium.Matrix3.fromRotationZ(angle, zRotation);
+    Cesium.Matrix3.multiplyByVector(zRotation, camera.positionWC, rotatedPosition);
+    Cesium.Matrix3.multiplyByVector(zRotation, camera.directionWC, rotatedDirection);
+    Cesium.Matrix3.multiplyByVector(zRotation, camera.upWC, rotatedUp);
+    camera.setView({
+      destination: rotatedPosition,
+      orientation: { direction: rotatedDirection, up: rotatedUp },
+    });
   }
 
   function setEnabled(next) {
@@ -135,12 +219,14 @@ export function installEarthSpin(viewer) {
     if (enabled) {
       if (!viewer.trackedEntity && viewer.scene.mode === Cesium.SceneMode.SCENE3D)
         viewer.camera.lookAtTransform(Cesium.Matrix4.IDENTITY);
+      hideMovingSky();
       removeFrameListener = viewer.scene.preRender.addEventListener(tick);
       holdContinuousRender(RENDER_OWNER);
     } else {
       removeFrameListener?.();
       removeFrameListener = null;
       releaseContinuousRender(RENDER_OWNER);
+      restoreSky();
     }
     syncUI();
   }
@@ -162,12 +248,30 @@ export function installEarthSpin(viewer) {
     lastTime = 0;
   }
   function onBlur() { heldPointers.clear(); pauseBriefly(); }
+  function onExternalPause(event) {
+    const duration = Number(event.detail?.durationMs);
+    resumeAfter = performance.now() + (Number.isFinite(duration) ? Math.max(350,Math.min(duration,15000)) : 2500);
+    lastTime = 0;
+  }
   function onToggle() { setEnabled(!enabled); }
-  function onExpand() {
-    settings.hidden = !settings.hidden;
-    expand.setAttribute('aria-expanded', String(!settings.hidden));
+  function setSettingsOpen(next) {
+    settings.hidden = !next;
+    expand.setAttribute('aria-expanded', String(next));
+    expand.setAttribute('aria-label', next ? '收起镜头环绕速度设置' : '展开镜头环绕速度设置');
+  }
+  function onExpand() { setSettingsOpen(settings.hidden); }
+  function onOutside(event) {
+    if (!settings.hidden && !root.contains(event.target)) setSettingsOpen(false);
+  }
+  function onKeyDown(event) {
+    if (event.key === 'Escape' && !settings.hidden) {
+      setSettingsOpen(false);
+      expand.focus();
+    }
   }
 
+  document.addEventListener('pointerdown', onOutside, true);
+  document.addEventListener('keydown', onKeyDown, true);
   button.addEventListener('click', onToggle);
   expand.addEventListener('click', onExpand);
   range.addEventListener('input', onPeriodInput);
@@ -175,6 +279,7 @@ export function installEarthSpin(viewer) {
   window.addEventListener('pointerup', onUp, true);
   window.addEventListener('pointercancel', onUp, true);
   window.addEventListener('blur', onBlur);
+  window.addEventListener('gev:earth-spin-pause', onExternalPause);
   viewer.container.addEventListener('wheel', pauseBriefly, { capture: true, passive: true });
   document.body.appendChild(root);
   syncUI();
@@ -183,6 +288,8 @@ export function installEarthSpin(viewer) {
     if (destroyed) return;
     setEnabled(false);
     destroyed = true;
+    document.removeEventListener('pointerdown', onOutside, true);
+    document.removeEventListener('keydown', onKeyDown, true);
     button.removeEventListener('click', onToggle);
     expand.removeEventListener('click', onExpand);
     range.removeEventListener('input', onPeriodInput);
@@ -190,7 +297,9 @@ export function installEarthSpin(viewer) {
     window.removeEventListener('pointerup', onUp, true);
     window.removeEventListener('pointercancel', onUp, true);
     window.removeEventListener('blur', onBlur);
+    window.removeEventListener('gev:earth-spin-pause', onExternalPause);
     viewer.container.removeEventListener('wheel', pauseBriefly, true);
     root.remove();
+    style.remove();
   };
 }
