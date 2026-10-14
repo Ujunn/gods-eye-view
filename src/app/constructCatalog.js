@@ -12,6 +12,8 @@ import { createApplicationVessels } from './layers/aisLiveVessels.js';
 import { createApplicationCctv } from './layers/cctv.js';
 import { createApplicationRadio } from './layers/radio.js';
 import { createApplicationTraffic } from './layers/traffic.js';
+import { createApplicationAgriTrade } from './layers/agriTrade.js';
+import { createApplicationRiceTrade } from './layers/riceTrade.js';
 import { createApplicationBikeshare } from './layers/bikeshare.js';
 import { createApplicationDirections } from './layers/directions.js';
 import { createApplicationRecentImagery } from './layers/recentImagery.js';
@@ -38,6 +40,11 @@ import { createBhoteKoshiLocatorLayer } from '../data/bhoteKoshiLocator.js';
  */
 export const LOCAL_ONLY_LAYER_METADATA = Object.freeze([
   Object.freeze({ id: 'local-adsb', disposition: 'local-only' }),
+  Object.freeze({ id: 'agri-soybeans-2022', disposition: 'local-only' }),
+  Object.freeze({ id: 'agri-maize-2022', disposition: 'local-only' }),
+  Object.freeze({ id: 'agri-wheat-2022', disposition: 'local-only' }),
+  Object.freeze({ id: 'agri-rice-2022', disposition: 'local-only' }),
+  Object.freeze({ id: 'rice-trade', disposition: 'local-only' }),
 ]);
 
 /** Serialization metadata for every layer the application catalog constructs. */
@@ -129,6 +136,11 @@ export function createApplicationCatalog({
         satellites,
         createApplicationLaunches({ source: sources.launches, satellites }),
         createApplicationTraffic({ source: sources.traffic, surface }),
+        createApplicationAgriTrade('rice'),
+        createApplicationAgriTrade('wheat'),
+        createApplicationAgriTrade('maize'),
+        createApplicationAgriTrade('soybeans'),
+        createApplicationRiceTrade(),
         createApplicationCctv({ surface, source: sources.cctv }),
         createApplicationRadio({ surface, source: sources.radio }),
         createApplicationTransit({ surface, source: sources.transit }),

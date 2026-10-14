@@ -1,0 +1,2908 @@
+{
+  "year": 2022,
+  "crop": "rice",
+  "itemCode": 31,
+  "itemName": "Rice; milled",
+  "color": "#35D0FF",
+  "simulated": false,
+  "source": "FAOSTAT Detailed Trade Matrix",
+  "sourceUrl": "https://bulks-faostat.fao.org/production/Trade_DetailedTradeMatrix_E_All_Data_(Normalized).zip",
+  "metric": "Export Quantity (tonnes), import mirror only if exporter record missing",
+  "selection": {
+    "minimumTonnes": 20000,
+    "targetCoveragePct": 95,
+    "maxRoutes": 120,
+    "actualCoveragePct": 82.335,
+    "selectedRoutes": 120,
+    "allValidGeocodedRoutes": 3815,
+    "selectedVolumeTonnes": 36992998.81,
+    "allValidGeocodedVolumeTonnes": 44929814.51
+  },
+  "stats": {
+    "reportedExports": 2598,
+    "mirrorImports": 1217,
+    "pairsWithMirrorDisagreementAbove20Pct": 1048
+  },
+  "routes": [
+    {
+      "id": "rice:704:608",
+      "from": {
+        "m49": "704",
+        "iso3": "VNM",
+        "name": "Viet Nam",
+        "lat": 16.16667,
+        "lon": 107.83333
+      },
+      "to": {
+        "m49": "608",
+        "iso3": "PHL",
+        "name": "Philippines",
+        "lat": 13,
+        "lon": 122
+      },
+      "volumeTonnes": 3108384.0,
+      "volumeKt": 3108.384,
+      "tradeValue1000USD": 1447418.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 17.51
+    },
+    {
+      "id": "rice:356:204",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "204",
+        "iso3": "BEN",
+        "name": "Benin",
+        "lat": 9.5,
+        "lon": 2.25
+      },
+      "volumeTonnes": 1615223.14,
+      "volumeKt": 1615.223,
+      "tradeValue1000USD": 546094.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 39.34
+    },
+    {
+      "id": "rice:764:368",
+      "from": {
+        "m49": "764",
+        "iso3": "THA",
+        "name": "Thailand",
+        "lat": 15,
+        "lon": 100
+      },
+      "to": {
+        "m49": "368",
+        "iso3": "IRQ",
+        "name": "Iraq",
+        "lat": 33,
+        "lon": 44
+      },
+      "volumeTonnes": 1600162.76,
+      "volumeKt": 1600.163,
+      "tradeValue1000USD": 658250.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:356:364",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "364",
+        "iso3": "IRN",
+        "name": "Iran (Islamic Republic of)",
+        "lat": 32,
+        "lon": 53
+      },
+      "volumeTonnes": 1244875.48,
+      "volumeKt": 1244.875,
+      "tradeValue1000USD": 1154891.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 30.7
+    },
+    {
+      "id": "rice:356:384",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "384",
+        "iso3": "CIV",
+        "name": "Côte d'Ivoire",
+        "lat": 8,
+        "lon": -5
+      },
+      "volumeTonnes": 1092837.67,
+      "volumeKt": 1092.838,
+      "tradeValue1000USD": 383369.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 41.75
+    },
+    {
+      "id": "rice:356:682",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "682",
+        "iso3": "SAU",
+        "name": "Saudi Arabia",
+        "lat": 25,
+        "lon": 45
+      },
+      "volumeTonnes": 1011892.85,
+      "volumeKt": 1011.893,
+      "tradeValue1000USD": 989229.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 5.27
+    },
+    {
+      "id": "rice:356:768",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "768",
+        "iso3": "TGO",
+        "name": "Togo",
+        "lat": 8,
+        "lon": 1.16667
+      },
+      "volumeTonnes": 876581.72,
+      "volumeKt": 876.582,
+      "tradeValue1000USD": 304805.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 95.27
+    },
+    {
+      "id": "rice:356:324",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "324",
+        "iso3": "GIN",
+        "name": "Guinea",
+        "lat": 11,
+        "lon": -10
+      },
+      "volumeTonnes": 799783.67,
+      "volumeKt": 799.784,
+      "tradeValue1000USD": 284049.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:764:710",
+      "from": {
+        "m49": "764",
+        "iso3": "THA",
+        "name": "Thailand",
+        "lat": 15,
+        "lon": 100
+      },
+      "to": {
+        "m49": "710",
+        "iso3": "ZAF",
+        "name": "South Africa",
+        "lat": -29,
+        "lon": 24
+      },
+      "volumeTonnes": 766390.38,
+      "volumeKt": 766.39,
+      "tradeValue1000USD": 315611.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 6.97
+    },
+    {
+      "id": "rice:704:156",
+      "from": {
+        "m49": "704",
+        "iso3": "VNM",
+        "name": "Viet Nam",
+        "lat": 16.16667,
+        "lon": 107.83333
+      },
+      "to": {
+        "m49": "156",
+        "iso3": "CHN",
+        "name": "China, mainland",
+        "lat": 35,
+        "lon": 105
+      },
+      "volumeTonnes": 656820.5,
+      "volumeKt": 656.821,
+      "tradeValue1000USD": 342813.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 0.13
+    },
+    {
+      "id": "rice:356:144",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "144",
+        "iso3": "LKA",
+        "name": "Sri Lanka",
+        "lat": 7,
+        "lon": 81
+      },
+      "volumeTonnes": 654487.75,
+      "volumeKt": 654.488,
+      "tradeValue1000USD": 219244.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "I",
+      "mirrorDisagreementPct": 13.5
+    },
+    {
+      "id": "rice:356:050",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "050",
+        "iso3": "BGD",
+        "name": "Bangladesh",
+        "lat": 24,
+        "lon": 90
+      },
+      "volumeTonnes": 653075.18,
+      "volumeKt": 653.075,
+      "tradeValue1000USD": 249660.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:764:840",
+      "from": {
+        "m49": "764",
+        "iso3": "THA",
+        "name": "Thailand",
+        "lat": 15,
+        "lon": 100
+      },
+      "to": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "volumeTonnes": 648036.09,
+      "volumeKt": 648.036,
+      "tradeValue1000USD": 529890.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 8.25
+    },
+    {
+      "id": "rice:356:450",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "450",
+        "iso3": "MDG",
+        "name": "Madagascar",
+        "lat": -20,
+        "lon": 47
+      },
+      "volumeTonnes": 622799.29,
+      "volumeKt": 622.799,
+      "tradeValue1000USD": 194206.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 10.44
+    },
+    {
+      "id": "rice:586:364",
+      "from": {
+        "m49": "586",
+        "iso3": "PAK",
+        "name": "Pakistan",
+        "lat": 30,
+        "lon": 70
+      },
+      "to": {
+        "m49": "364",
+        "iso3": "IRN",
+        "name": "Iran (Islamic Republic of)",
+        "lat": 32,
+        "lon": 53
+      },
+      "volumeTonnes": 611933.9,
+      "volumeKt": 611.934,
+      "tradeValue1000USD": 666948.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:356:784",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "784",
+        "iso3": "ARE",
+        "name": "United Arab Emirates",
+        "lat": 24,
+        "lon": 54
+      },
+      "volumeTonnes": 537406.82,
+      "volumeKt": 537.407,
+      "tradeValue1000USD": 431496.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 15.91
+    },
+    {
+      "id": "rice:764:156",
+      "from": {
+        "m49": "764",
+        "iso3": "THA",
+        "name": "Thailand",
+        "lat": 15,
+        "lon": 100
+      },
+      "to": {
+        "m49": "156",
+        "iso3": "CHN",
+        "name": "China, mainland",
+        "lat": 35,
+        "lon": 105
+      },
+      "volumeTonnes": 520570.52,
+      "volumeKt": 520.571,
+      "tradeValue1000USD": 288468.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 4.32
+    },
+    {
+      "id": "rice:356:120",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "120",
+        "iso3": "CMR",
+        "name": "Cameroon",
+        "lat": 6,
+        "lon": 12
+      },
+      "volumeTonnes": 517790.07,
+      "volumeKt": 517.79,
+      "tradeValue1000USD": 171584.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 4.29
+    },
+    {
+      "id": "rice:356:706",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "706",
+        "iso3": "SOM",
+        "name": "Somalia",
+        "lat": 10,
+        "lon": 49
+      },
+      "volumeTonnes": 504351.53,
+      "volumeKt": 504.352,
+      "tradeValue1000USD": 180905.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:156:818",
+      "from": {
+        "m49": "156",
+        "iso3": "CHN",
+        "name": "China, mainland",
+        "lat": 35,
+        "lon": 105
+      },
+      "to": {
+        "m49": "818",
+        "iso3": "EGY",
+        "name": "Egypt",
+        "lat": 27,
+        "lon": 30
+      },
+      "volumeTonnes": 481200.0,
+      "volumeKt": 481.2,
+      "tradeValue1000USD": 162926.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 97.31
+    },
+    {
+      "id": "rice:356:524",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "524",
+        "iso3": "NPL",
+        "name": "Nepal",
+        "lat": 28,
+        "lon": 84
+      },
+      "volumeTonnes": 473019.05,
+      "volumeKt": 473.019,
+      "tradeValue1000USD": 206012.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 19.79
+    },
+    {
+      "id": "rice:356:024",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "024",
+        "iso3": "AGO",
+        "name": "Angola",
+        "lat": -12.5,
+        "lon": 18.5
+      },
+      "volumeTonnes": 456917.63,
+      "volumeKt": 456.918,
+      "tradeValue1000USD": 157789.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 24.55
+    },
+    {
+      "id": "rice:704:458",
+      "from": {
+        "m49": "704",
+        "iso3": "VNM",
+        "name": "Viet Nam",
+        "lat": 16.16667,
+        "lon": 107.83333
+      },
+      "to": {
+        "m49": "458",
+        "iso3": "MYS",
+        "name": "Malaysia",
+        "lat": 2.5,
+        "lon": 112.5
+      },
+      "volumeTonnes": 436544.8,
+      "volumeKt": 436.545,
+      "tradeValue1000USD": 198132.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 3.48
+    },
+    {
+      "id": "rice:586:156",
+      "from": {
+        "m49": "586",
+        "iso3": "PAK",
+        "name": "Pakistan",
+        "lat": 30,
+        "lon": 70
+      },
+      "to": {
+        "m49": "156",
+        "iso3": "CHN",
+        "name": "China, mainland",
+        "lat": 35,
+        "lon": 105
+      },
+      "volumeTonnes": 427467.0,
+      "volumeKt": 427.467,
+      "tradeValue1000USD": 157452.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 18.09
+    },
+    {
+      "id": "rice:704:384",
+      "from": {
+        "m49": "704",
+        "iso3": "VNM",
+        "name": "Viet Nam",
+        "lat": 16.16667,
+        "lon": 107.83333
+      },
+      "to": {
+        "m49": "384",
+        "iso3": "CIV",
+        "name": "Côte d'Ivoire",
+        "lat": 8,
+        "lon": -5
+      },
+      "volumeTonnes": 427425.5,
+      "volumeKt": 427.425,
+      "tradeValue1000USD": 206478.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 3.07
+    },
+    {
+      "id": "rice:704:288",
+      "from": {
+        "m49": "704",
+        "iso3": "VNM",
+        "name": "Viet Nam",
+        "lat": 16.16667,
+        "lon": 107.83333
+      },
+      "to": {
+        "m49": "288",
+        "iso3": "GHA",
+        "name": "Ghana",
+        "lat": 8,
+        "lon": -2
+      },
+      "volumeTonnes": 426645.41,
+      "volumeKt": 426.645,
+      "tradeValue1000USD": 224110.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 42.32
+    },
+    {
+      "id": "rice:356:404",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "404",
+        "iso3": "KEN",
+        "name": "Kenya",
+        "lat": 1,
+        "lon": 38
+      },
+      "volumeTonnes": 392440.18,
+      "volumeKt": 392.44,
+      "tradeValue1000USD": 143056.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 38.03
+    },
+    {
+      "id": "rice:586:458",
+      "from": {
+        "m49": "586",
+        "iso3": "PAK",
+        "name": "Pakistan",
+        "lat": 30,
+        "lon": 70
+      },
+      "to": {
+        "m49": "458",
+        "iso3": "MYS",
+        "name": "Malaysia",
+        "lat": 2.5,
+        "lon": 112.5
+      },
+      "volumeTonnes": 384318.0,
+      "volumeKt": 384.318,
+      "tradeValue1000USD": 151357.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 1.76
+    },
+    {
+      "id": "rice:104:156",
+      "from": {
+        "m49": "104",
+        "iso3": "MMR",
+        "name": "Myanmar",
+        "lat": 21.92,
+        "lon": 95.96
+      },
+      "to": {
+        "m49": "156",
+        "iso3": "CHN",
+        "name": "China, mainland",
+        "lat": 35,
+        "lon": 105
+      },
+      "volumeTonnes": 383035.5,
+      "volumeKt": 383.036,
+      "tradeValue1000USD": 163654.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:840:332",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "332",
+        "iso3": "HTI",
+        "name": "Haiti",
+        "lat": 19,
+        "lon": -72.41667
+      },
+      "volumeTonnes": 382921.53,
+      "volumeKt": 382.922,
+      "tradeValue1000USD": 231188.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:356:368",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "368",
+        "iso3": "IRQ",
+        "name": "Iraq",
+        "lat": 33,
+        "lon": 44
+      },
+      "volumeTonnes": 375911.94,
+      "volumeKt": 375.912,
+      "tradeValue1000USD": 354214.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:356:704",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "704",
+        "iso3": "VNM",
+        "name": "Viet Nam",
+        "lat": 16.16667,
+        "lon": 107.83333
+      },
+      "volumeTonnes": 373772.7,
+      "volumeKt": 373.773,
+      "tradeValue1000USD": 118351.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 27.2
+    },
+    {
+      "id": "rice:586:404",
+      "from": {
+        "m49": "586",
+        "iso3": "PAK",
+        "name": "Pakistan",
+        "lat": 30,
+        "lon": 70
+      },
+      "to": {
+        "m49": "404",
+        "iso3": "KEN",
+        "name": "Kenya",
+        "lat": 1,
+        "lon": 38
+      },
+      "volumeTonnes": 351241.0,
+      "volumeKt": 351.241,
+      "tradeValue1000USD": 175118.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 6.11
+    },
+    {
+      "id": "rice:356:887",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "887",
+        "iso3": "YEM",
+        "name": "Yemen",
+        "lat": 15,
+        "lon": 48
+      },
+      "volumeTonnes": 342955.01,
+      "volumeKt": 342.955,
+      "tradeValue1000USD": 329685.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:356:508",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "508",
+        "iso3": "MOZ",
+        "name": "Mozambique",
+        "lat": -18.25,
+        "lon": 35
+      },
+      "volumeTonnes": 335494.43,
+      "volumeKt": 335.494,
+      "tradeValue1000USD": 110166.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 29.96
+    },
+    {
+      "id": "rice:586:784",
+      "from": {
+        "m49": "586",
+        "iso3": "PAK",
+        "name": "Pakistan",
+        "lat": 30,
+        "lon": 70
+      },
+      "to": {
+        "m49": "784",
+        "iso3": "ARE",
+        "name": "United Arab Emirates",
+        "lat": 24,
+        "lon": 54
+      },
+      "volumeTonnes": 334136.0,
+      "volumeKt": 334.136,
+      "tradeValue1000USD": 232097.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 58.78
+    },
+    {
+      "id": "rice:262:231",
+      "from": {
+        "m49": "262",
+        "iso3": "DJI",
+        "name": "Djibouti",
+        "lat": 11.5,
+        "lon": 43
+      },
+      "to": {
+        "m49": "231",
+        "iso3": "ETH",
+        "name": "Ethiopia",
+        "lat": 8,
+        "lon": 38
+      },
+      "volumeTonnes": 333749.7,
+      "volumeKt": 333.75,
+      "tradeValue1000USD": 164150.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:356:430",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "430",
+        "iso3": "LBR",
+        "name": "Liberia",
+        "lat": 6.5,
+        "lon": -9.5
+      },
+      "volumeTonnes": 328304.33,
+      "volumeKt": 328.304,
+      "tradeValue1000USD": 120050.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "I",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:764:204",
+      "from": {
+        "m49": "764",
+        "iso3": "THA",
+        "name": "Thailand",
+        "lat": 15,
+        "lon": 100
+      },
+      "to": {
+        "m49": "204",
+        "iso3": "BEN",
+        "name": "Benin",
+        "lat": 9.5,
+        "lon": 2.25
+      },
+      "volumeTonnes": 313707.47,
+      "volumeKt": 313.707,
+      "tradeValue1000USD": 131376.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 1.13
+    },
+    {
+      "id": "rice:764:392",
+      "from": {
+        "m49": "764",
+        "iso3": "THA",
+        "name": "Thailand",
+        "lat": 15,
+        "lon": 100
+      },
+      "to": {
+        "m49": "392",
+        "iso3": "JPN",
+        "name": "Japan",
+        "lat": 36,
+        "lon": 138
+      },
+      "volumeTonnes": 312735.36,
+      "volumeKt": 312.735,
+      "tradeValue1000USD": 128442.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:356:686",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "686",
+        "iso3": "SEN",
+        "name": "Senegal",
+        "lat": 14,
+        "lon": -14
+      },
+      "volumeTonnes": 312437.88,
+      "volumeKt": 312.438,
+      "tradeValue1000USD": 112757.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 89.6
+    },
+    {
+      "id": "rice:356:262",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "262",
+        "iso3": "DJI",
+        "name": "Djibouti",
+        "lat": 11.5,
+        "lon": 43
+      },
+      "volumeTonnes": 287809.43,
+      "volumeKt": 287.809,
+      "tradeValue1000USD": 108380.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 0.22
+    },
+    {
+      "id": "rice:600:076",
+      "from": {
+        "m49": "600",
+        "iso3": "PRY",
+        "name": "Paraguay",
+        "lat": -23,
+        "lon": -58
+      },
+      "to": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "volumeTonnes": 282211.3,
+      "volumeKt": 282.211,
+      "tradeValue1000USD": 116440.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 1.08
+    },
+    {
+      "id": "rice:116:156",
+      "from": {
+        "m49": "116",
+        "iso3": "KHM",
+        "name": "Cambodia",
+        "lat": 13,
+        "lon": 105
+      },
+      "to": {
+        "m49": "156",
+        "iso3": "CHN",
+        "name": "China, mainland",
+        "lat": 35,
+        "lon": 105
+      },
+      "volumeTonnes": 279526.17,
+      "volumeKt": 279.526,
+      "tradeValue1000USD": 163229.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 3.77
+    },
+    {
+      "id": "rice:356:458",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "458",
+        "iso3": "MYS",
+        "name": "Malaysia",
+        "lat": 2.5,
+        "lon": 112.5
+      },
+      "volumeTonnes": 261463.08,
+      "volumeKt": 261.463,
+      "tradeValue1000USD": 133844.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 23.68
+    },
+    {
+      "id": "rice:356:840",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "volumeTonnes": 248618.66,
+      "volumeKt": 248.619,
+      "tradeValue1000USD": 269758.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 3.68
+    },
+    {
+      "id": "rice:840:392",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "392",
+        "iso3": "JPN",
+        "name": "Japan",
+        "lat": 36,
+        "lon": 138
+      },
+      "volumeTonnes": 239942.81,
+      "volumeKt": 239.943,
+      "tradeValue1000USD": 290602.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:834:800",
+      "from": {
+        "m49": "834",
+        "iso3": "TZA",
+        "name": "United Republic of Tanzania",
+        "lat": -6,
+        "lon": 35
+      },
+      "to": {
+        "m49": "800",
+        "iso3": "UGA",
+        "name": "Uganda",
+        "lat": 1,
+        "lon": 32
+      },
+      "volumeTonnes": 234870.61,
+      "volumeKt": 234.871,
+      "tradeValue1000USD": 105077.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 28.01
+    },
+    {
+      "id": "rice:156:792",
+      "from": {
+        "m49": "156",
+        "iso3": "CHN",
+        "name": "China, mainland",
+        "lat": 35,
+        "lon": 105
+      },
+      "to": {
+        "m49": "792",
+        "iso3": "TUR",
+        "name": "Türkiye",
+        "lat": 39,
+        "lon": 35
+      },
+      "volumeTonnes": 225700.0,
+      "volumeKt": 225.7,
+      "tradeValue1000USD": 76968.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 8.55
+    },
+    {
+      "id": "rice:586:004",
+      "from": {
+        "m49": "586",
+        "iso3": "PAK",
+        "name": "Pakistan",
+        "lat": 30,
+        "lon": 70
+      },
+      "to": {
+        "m49": "004",
+        "iso3": "AFG",
+        "name": "Afghanistan",
+        "lat": 33,
+        "lon": 65
+      },
+      "volumeTonnes": 214630.0,
+      "volumeKt": 214.63,
+      "tradeValue1000USD": 93091.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:356:694",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "694",
+        "iso3": "SLE",
+        "name": "Sierra Leone",
+        "lat": 8.5,
+        "lon": -11.5
+      },
+      "volumeTonnes": 209966.65,
+      "volumeKt": 209.967,
+      "tradeValue1000USD": 75683.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:764:024",
+      "from": {
+        "m49": "764",
+        "iso3": "THA",
+        "name": "Thailand",
+        "lat": 15,
+        "lon": 100
+      },
+      "to": {
+        "m49": "024",
+        "iso3": "AGO",
+        "name": "Angola",
+        "lat": -12.5,
+        "lon": 18.5
+      },
+      "volumeTonnes": 198470.78,
+      "volumeKt": 198.471,
+      "tradeValue1000USD": 83152.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 28.67
+    },
+    {
+      "id": "rice:356:156",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "156",
+        "iso3": "CHN",
+        "name": "China, mainland",
+        "lat": 35,
+        "lon": 105
+      },
+      "volumeTonnes": 196690.03,
+      "volumeKt": 196.69,
+      "tradeValue1000USD": 68973.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 17.76
+    },
+    {
+      "id": "rice:156:694",
+      "from": {
+        "m49": "156",
+        "iso3": "CHN",
+        "name": "China, mainland",
+        "lat": 35,
+        "lon": 105
+      },
+      "to": {
+        "m49": "694",
+        "iso3": "SLE",
+        "name": "Sierra Leone",
+        "lat": 8.5,
+        "lon": -11.5
+      },
+      "volumeTonnes": 195500.0,
+      "volumeKt": 195.5,
+      "tradeValue1000USD": 60060.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:156:598",
+      "from": {
+        "m49": "156",
+        "iso3": "CHN",
+        "name": "China, mainland",
+        "lat": 35,
+        "lon": 105
+      },
+      "to": {
+        "m49": "598",
+        "iso3": "PNG",
+        "name": "Papua New Guinea",
+        "lat": -6,
+        "lon": 147
+      },
+      "volumeTonnes": 186494.0,
+      "volumeKt": 186.494,
+      "tradeValue1000USD": 73502.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 68.96
+    },
+    {
+      "id": "rice:356:414",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "414",
+        "iso3": "KWT",
+        "name": "Kuwait",
+        "lat": 29.5,
+        "lon": 45.75
+      },
+      "volumeTonnes": 186035.69,
+      "volumeKt": 186.036,
+      "tradeValue1000USD": 174340.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 3.64
+    },
+    {
+      "id": "rice:764:608",
+      "from": {
+        "m49": "764",
+        "iso3": "THA",
+        "name": "Thailand",
+        "lat": 15,
+        "lon": 100
+      },
+      "to": {
+        "m49": "608",
+        "iso3": "PHL",
+        "name": "Philippines",
+        "lat": 13,
+        "lon": 122
+      },
+      "volumeTonnes": 185714.2,
+      "volumeKt": 185.714,
+      "tradeValue1000USD": 73682.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 6.24
+    },
+    {
+      "id": "rice:840:124",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "124",
+        "iso3": "CAN",
+        "name": "Canada",
+        "lat": 60,
+        "lon": -95
+      },
+      "volumeTonnes": 185428.41,
+      "volumeKt": 185.428,
+      "tradeValue1000USD": 187535.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 6.8
+    },
+    {
+      "id": "rice:356:710",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "710",
+        "iso3": "ZAF",
+        "name": "South Africa",
+        "lat": -29,
+        "lon": 24
+      },
+      "volumeTonnes": 180787.28,
+      "volumeKt": 180.787,
+      "tradeValue1000USD": 75008.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 1.37
+    },
+    {
+      "id": "rice:764:887",
+      "from": {
+        "m49": "764",
+        "iso3": "THA",
+        "name": "Thailand",
+        "lat": 15,
+        "lon": 100
+      },
+      "to": {
+        "m49": "887",
+        "iso3": "YEM",
+        "name": "Yemen",
+        "lat": 15,
+        "lon": 48
+      },
+      "volumeTonnes": 177892.2,
+      "volumeKt": 177.892,
+      "tradeValue1000USD": 81038.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:764:508",
+      "from": {
+        "m49": "764",
+        "iso3": "THA",
+        "name": "Thailand",
+        "lat": 15,
+        "lon": 100
+      },
+      "to": {
+        "m49": "508",
+        "iso3": "MOZ",
+        "name": "Mozambique",
+        "lat": -18.25,
+        "lon": 35
+      },
+      "volumeTonnes": 176928.39,
+      "volumeKt": 176.928,
+      "tradeValue1000USD": 75663.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 34.07
+    },
+    {
+      "id": "rice:764:120",
+      "from": {
+        "m49": "764",
+        "iso3": "THA",
+        "name": "Thailand",
+        "lat": 15,
+        "lon": 100
+      },
+      "to": {
+        "m49": "120",
+        "iso3": "CMR",
+        "name": "Cameroon",
+        "lat": 6,
+        "lon": 12
+      },
+      "volumeTonnes": 173467.05,
+      "volumeKt": 173.467,
+      "tradeValue1000USD": 75967.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 18.33
+    },
+    {
+      "id": "rice:356:634",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "634",
+        "iso3": "QAT",
+        "name": "Qatar",
+        "lat": 25.5,
+        "lon": 51.25
+      },
+      "volumeTonnes": 166015.21,
+      "volumeKt": 166.015,
+      "tradeValue1000USD": 123679.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 9.16
+    },
+    {
+      "id": "rice:104:608",
+      "from": {
+        "m49": "104",
+        "iso3": "MMR",
+        "name": "Myanmar",
+        "lat": 21.92,
+        "lon": 95.96
+      },
+      "to": {
+        "m49": "608",
+        "iso3": "PHL",
+        "name": "Philippines",
+        "lat": 13,
+        "lon": 122
+      },
+      "volumeTonnes": 165804.01,
+      "volumeKt": 165.804,
+      "tradeValue1000USD": 63892.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:764:344",
+      "from": {
+        "m49": "764",
+        "iso3": "THA",
+        "name": "Thailand",
+        "lat": 15,
+        "lon": 100
+      },
+      "to": {
+        "m49": "344",
+        "iso3": "HKG",
+        "name": "China, Hong Kong SAR",
+        "lat": 22.25,
+        "lon": 114.16667
+      },
+      "volumeTonnes": 163703.89,
+      "volumeKt": 163.704,
+      "tradeValue1000USD": 139863.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 3.41
+    },
+    {
+      "id": "rice:356:512",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "512",
+        "iso3": "OMN",
+        "name": "Oman",
+        "lat": 21,
+        "lon": 57
+      },
+      "volumeTonnes": 157850.77,
+      "volumeKt": 157.851,
+      "tradeValue1000USD": 132952.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 11.0
+    },
+    {
+      "id": "rice:858:484",
+      "from": {
+        "m49": "858",
+        "iso3": "URY",
+        "name": "Uruguay",
+        "lat": -33,
+        "lon": -56
+      },
+      "to": {
+        "m49": "484",
+        "iso3": "MEX",
+        "name": "Mexico",
+        "lat": 23,
+        "lon": -102
+      },
+      "volumeTonnes": 155637.0,
+      "volumeKt": 155.637,
+      "tradeValue1000USD": 83357.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 1.88
+    },
+    {
+      "id": "rice:380:250",
+      "from": {
+        "m49": "380",
+        "iso3": "ITA",
+        "name": "Italy",
+        "lat": 42.83333,
+        "lon": 12.83333
+      },
+      "to": {
+        "m49": "250",
+        "iso3": "FRA",
+        "name": "France",
+        "lat": 46,
+        "lon": 2
+      },
+      "volumeTonnes": 145964.7,
+      "volumeKt": 145.965,
+      "tradeValue1000USD": 158931.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 17.03
+    },
+    {
+      "id": "rice:356:702",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "702",
+        "iso3": "SGP",
+        "name": "Singapore",
+        "lat": 1.36667,
+        "lon": 103.8
+      },
+      "volumeTonnes": 144060.89,
+      "volumeKt": 144.061,
+      "tradeValue1000USD": 69299.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 0.24
+    },
+    {
+      "id": "rice:586:682",
+      "from": {
+        "m49": "586",
+        "iso3": "PAK",
+        "name": "Pakistan",
+        "lat": 30,
+        "lon": 70
+      },
+      "to": {
+        "m49": "682",
+        "iso3": "SAU",
+        "name": "Saudi Arabia",
+        "lat": 25,
+        "lon": 45
+      },
+      "volumeTonnes": 143406.0,
+      "volumeKt": 143.406,
+      "tradeValue1000USD": 106021.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 0.93
+    },
+    {
+      "id": "rice:858:076",
+      "from": {
+        "m49": "858",
+        "iso3": "URY",
+        "name": "Uruguay",
+        "lat": -33,
+        "lon": -56
+      },
+      "to": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "volumeTonnes": 135885.6,
+      "volumeKt": 135.886,
+      "tradeValue1000USD": 67100.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 1.48
+    },
+    {
+      "id": "rice:586:398",
+      "from": {
+        "m49": "586",
+        "iso3": "PAK",
+        "name": "Pakistan",
+        "lat": 30,
+        "lon": 70
+      },
+      "to": {
+        "m49": "398",
+        "iso3": "KAZ",
+        "name": "Kazakhstan",
+        "lat": 48,
+        "lon": 68
+      },
+      "volumeTonnes": 132695.0,
+      "volumeKt": 132.695,
+      "tradeValue1000USD": 59958.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 98.42
+    },
+    {
+      "id": "rice:380:276",
+      "from": {
+        "m49": "380",
+        "iso3": "ITA",
+        "name": "Italy",
+        "lat": 42.83333,
+        "lon": 12.83333
+      },
+      "to": {
+        "m49": "276",
+        "iso3": "DEU",
+        "name": "Germany",
+        "lat": 51,
+        "lon": 9
+      },
+      "volumeTonnes": 132412.0,
+      "volumeKt": 132.412,
+      "tradeValue1000USD": 154466.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:764:458",
+      "from": {
+        "m49": "764",
+        "iso3": "THA",
+        "name": "Thailand",
+        "lat": 15,
+        "lon": 100
+      },
+      "to": {
+        "m49": "458",
+        "iso3": "MYS",
+        "name": "Malaysia",
+        "lat": 2.5,
+        "lon": 112.5
+      },
+      "volumeTonnes": 131362.05,
+      "volumeKt": 131.362,
+      "tradeValue1000USD": 55727.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 7.64
+    },
+    {
+      "id": "rice:356:012",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "012",
+        "iso3": "DZA",
+        "name": "Algeria",
+        "lat": 28,
+        "lon": 3
+      },
+      "volumeTonnes": 126948.46,
+      "volumeKt": 126.948,
+      "tradeValue1000USD": 64462.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:702:360",
+      "from": {
+        "m49": "702",
+        "iso3": "SGP",
+        "name": "Singapore",
+        "lat": 1.36667,
+        "lon": 103.8
+      },
+      "to": {
+        "m49": "360",
+        "iso3": "IDN",
+        "name": "Indonesia",
+        "lat": -5,
+        "lon": 120
+      },
+      "volumeTonnes": 126354.12,
+      "volumeKt": 126.354,
+      "tradeValue1000USD": 53379.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 100.0
+    },
+    {
+      "id": "rice:356:178",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "178",
+        "iso3": "COG",
+        "name": "Congo",
+        "lat": -1,
+        "lon": 15
+      },
+      "volumeTonnes": 125756.97,
+      "volumeKt": 125.757,
+      "tradeValue1000USD": 42174.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 3.84
+    },
+    {
+      "id": "rice:356:643",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "643",
+        "iso3": "RUS",
+        "name": "Russian Federation",
+        "lat": 60,
+        "lon": 100
+      },
+      "volumeTonnes": 125200.26,
+      "volumeKt": 125.2,
+      "tradeValue1000USD": 56391.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:356:400",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "400",
+        "iso3": "JOR",
+        "name": "Jordan",
+        "lat": 31,
+        "lon": 36
+      },
+      "volumeTonnes": 124201.54,
+      "volumeKt": 124.202,
+      "tradeValue1000USD": 118077.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 34.69
+    },
+    {
+      "id": "rice:764:124",
+      "from": {
+        "m49": "764",
+        "iso3": "THA",
+        "name": "Thailand",
+        "lat": 15,
+        "lon": 100
+      },
+      "to": {
+        "m49": "124",
+        "iso3": "CAN",
+        "name": "Canada",
+        "lat": 60,
+        "lon": -95
+      },
+      "volumeTonnes": 119463.63,
+      "volumeKt": 119.464,
+      "tradeValue1000USD": 101680.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 17.65
+    },
+    {
+      "id": "rice:076:192",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "192",
+        "iso3": "CUB",
+        "name": "Cuba",
+        "lat": 21.5,
+        "lon": -80
+      },
+      "volumeTonnes": 118686.41,
+      "volumeKt": 118.686,
+      "tradeValue1000USD": 49834.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 0.0
+    },
+    {
+      "id": "rice:586:608",
+      "from": {
+        "m49": "586",
+        "iso3": "PAK",
+        "name": "Pakistan",
+        "lat": 30,
+        "lon": 70
+      },
+      "to": {
+        "m49": "608",
+        "iso3": "PHL",
+        "name": "Philippines",
+        "lat": 13,
+        "lon": 122
+      },
+      "volumeTonnes": 113708.0,
+      "volumeKt": 113.708,
+      "tradeValue1000USD": 46427.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 15.34
+    },
+    {
+      "id": "rice:104:380",
+      "from": {
+        "m49": "104",
+        "iso3": "MMR",
+        "name": "Myanmar",
+        "lat": 21.92,
+        "lon": 95.96
+      },
+      "to": {
+        "m49": "380",
+        "iso3": "ITA",
+        "name": "Italy",
+        "lat": 42.83333,
+        "lon": 12.83333
+      },
+      "volumeTonnes": 113585.82,
+      "volumeKt": 113.586,
+      "tradeValue1000USD": 64787.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:458:360",
+      "from": {
+        "m49": "458",
+        "iso3": "MYS",
+        "name": "Malaysia",
+        "lat": 2.5,
+        "lon": 112.5
+      },
+      "to": {
+        "m49": "360",
+        "iso3": "IDN",
+        "name": "Indonesia",
+        "lat": -5,
+        "lon": 120
+      },
+      "volumeTonnes": 112849.2,
+      "volumeKt": 112.849,
+      "tradeValue1000USD": 44246.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 100.0
+    },
+    {
+      "id": "rice:356:818",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "818",
+        "iso3": "EGY",
+        "name": "Egypt",
+        "lat": 27,
+        "lon": 30
+      },
+      "volumeTonnes": 112378.65,
+      "volumeKt": 112.379,
+      "tradeValue1000USD": 69979.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 39.12
+    },
+    {
+      "id": "rice:704:360",
+      "from": {
+        "m49": "704",
+        "iso3": "VNM",
+        "name": "Viet Nam",
+        "lat": 16.16667,
+        "lon": 107.83333
+      },
+      "to": {
+        "m49": "360",
+        "iso3": "IDN",
+        "name": "Indonesia",
+        "lat": -5,
+        "lon": 120
+      },
+      "volumeTonnes": 112105.3,
+      "volumeKt": 112.105,
+      "tradeValue1000USD": 55370.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 32.72
+    },
+    {
+      "id": "rice:702:508",
+      "from": {
+        "m49": "702",
+        "iso3": "SGP",
+        "name": "Singapore",
+        "lat": 1.36667,
+        "lon": 103.8
+      },
+      "to": {
+        "m49": "508",
+        "iso3": "MOZ",
+        "name": "Mozambique",
+        "lat": -18.25,
+        "lon": 35
+      },
+      "volumeTonnes": 110532.59,
+      "volumeKt": 110.533,
+      "tradeValue1000USD": 26906.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "I",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:586:834",
+      "from": {
+        "m49": "586",
+        "iso3": "PAK",
+        "name": "Pakistan",
+        "lat": 30,
+        "lon": 70
+      },
+      "to": {
+        "m49": "834",
+        "iso3": "TZA",
+        "name": "United Republic of Tanzania",
+        "lat": -6,
+        "lon": 35
+      },
+      "volumeTonnes": 108132.0,
+      "volumeKt": 108.132,
+      "tradeValue1000USD": 46616.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:156:840",
+      "from": {
+        "m49": "156",
+        "iso3": "CHN",
+        "name": "China, mainland",
+        "lat": 35,
+        "lon": 105
+      },
+      "to": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "volumeTonnes": 105129.8,
+      "volumeKt": 105.13,
+      "tradeValue1000USD": 37415.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 18.37
+    },
+    {
+      "id": "rice:328:862",
+      "from": {
+        "m49": "328",
+        "iso3": "GUY",
+        "name": "Guyana",
+        "lat": 5,
+        "lon": -59
+      },
+      "to": {
+        "m49": "862",
+        "iso3": "VEN",
+        "name": "Venezuela (Bolivarian Republic of)",
+        "lat": 8,
+        "lon": -66
+      },
+      "volumeTonnes": 102604.4,
+      "volumeKt": 102.604,
+      "tradeValue1000USD": 58820.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 2.13
+    },
+    {
+      "id": "rice:586:706",
+      "from": {
+        "m49": "586",
+        "iso3": "PAK",
+        "name": "Pakistan",
+        "lat": 30,
+        "lon": 70
+      },
+      "to": {
+        "m49": "706",
+        "iso3": "SOM",
+        "name": "Somalia",
+        "lat": 10,
+        "lon": 49
+      },
+      "volumeTonnes": 98118.0,
+      "volumeKt": 98.118,
+      "tradeValue1000USD": 53066.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:704:702",
+      "from": {
+        "m49": "704",
+        "iso3": "VNM",
+        "name": "Viet Nam",
+        "lat": 16.16667,
+        "lon": 107.83333
+      },
+      "to": {
+        "m49": "702",
+        "iso3": "SGP",
+        "name": "Singapore",
+        "lat": 1.36667,
+        "lon": 103.8
+      },
+      "volumeTonnes": 97732.46,
+      "volumeKt": 97.732,
+      "tradeValue1000USD": 53401.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 1.33
+    },
+    {
+      "id": "rice:586:646",
+      "from": {
+        "m49": "586",
+        "iso3": "PAK",
+        "name": "Pakistan",
+        "lat": 30,
+        "lon": 70
+      },
+      "to": {
+        "m49": "646",
+        "iso3": "RWA",
+        "name": "Rwanda",
+        "lat": -2,
+        "lon": 30
+      },
+      "volumeTonnes": 93095.65,
+      "volumeKt": 93.096,
+      "tradeValue1000USD": 47451.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:116:250",
+      "from": {
+        "m49": "116",
+        "iso3": "KHM",
+        "name": "Cambodia",
+        "lat": 13,
+        "lon": 105
+      },
+      "to": {
+        "m49": "250",
+        "iso3": "FRA",
+        "name": "France",
+        "lat": 46,
+        "lon": 2
+      },
+      "volumeTonnes": 91591.35,
+      "volumeKt": 91.591,
+      "tradeValue1000USD": 61534.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 13.12
+    },
+    {
+      "id": "rice:356:180",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "180",
+        "iso3": "COD",
+        "name": "Democratic Republic of the Congo",
+        "lat": 0,
+        "lon": 25
+      },
+      "volumeTonnes": 90735.26,
+      "volumeKt": 90.735,
+      "tradeValue1000USD": 29947.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 53.49
+    },
+    {
+      "id": "rice:646:180",
+      "from": {
+        "m49": "646",
+        "iso3": "RWA",
+        "name": "Rwanda",
+        "lat": -2,
+        "lon": 30
+      },
+      "to": {
+        "m49": "180",
+        "iso3": "COD",
+        "name": "Democratic Republic of the Congo",
+        "lat": 0,
+        "lon": 25
+      },
+      "volumeTonnes": 88501.18,
+      "volumeKt": 88.501,
+      "tradeValue1000USD": 58928.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 99.98
+    },
+    {
+      "id": "rice:840:368",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "368",
+        "iso3": "IRQ",
+        "name": "Iraq",
+        "lat": 33,
+        "lon": 44
+      },
+      "volumeTonnes": 87999.3,
+      "volumeKt": 87.999,
+      "tradeValue1000USD": 59312.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:356:792",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "792",
+        "iso3": "TUR",
+        "name": "Türkiye",
+        "lat": 39,
+        "lon": 35
+      },
+      "volumeTonnes": 87471.68,
+      "volumeKt": 87.472,
+      "tradeValue1000USD": 42455.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 14.8
+    },
+    {
+      "id": "rice:764:702",
+      "from": {
+        "m49": "764",
+        "iso3": "THA",
+        "name": "Thailand",
+        "lat": 15,
+        "lon": 100
+      },
+      "to": {
+        "m49": "702",
+        "iso3": "SGP",
+        "name": "Singapore",
+        "lat": 1.36667,
+        "lon": 103.8
+      },
+      "volumeTonnes": 86492.13,
+      "volumeKt": 86.492,
+      "tradeValue1000USD": 71695.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 1.97
+    },
+    {
+      "id": "rice:356:729",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "729",
+        "iso3": "SDN",
+        "name": "Sudan",
+        "lat": 15,
+        "lon": 30
+      },
+      "volumeTonnes": 86294.31,
+      "volumeKt": 86.294,
+      "tradeValue1000USD": 34367.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:032:152",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "152",
+        "iso3": "CHL",
+        "name": "Chile",
+        "lat": -30,
+        "lon": -71
+      },
+      "volumeTonnes": 85247.0,
+      "volumeKt": 85.247,
+      "tradeValue1000USD": 38226.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 1.54
+    },
+    {
+      "id": "rice:764:050",
+      "from": {
+        "m49": "764",
+        "iso3": "THA",
+        "name": "Thailand",
+        "lat": 15,
+        "lon": 100
+      },
+      "to": {
+        "m49": "050",
+        "iso3": "BGD",
+        "name": "Bangladesh",
+        "lat": 24,
+        "lon": 90
+      },
+      "volumeTonnes": 82150.39,
+      "volumeKt": 82.15,
+      "tradeValue1000USD": 37392.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:528:276",
+      "from": {
+        "m49": "528",
+        "iso3": "NLD",
+        "name": "Netherlands (Kingdom of the)",
+        "lat": 52.5,
+        "lon": 5.75
+      },
+      "to": {
+        "m49": "276",
+        "iso3": "DEU",
+        "name": "Germany",
+        "lat": 51,
+        "lon": 9
+      },
+      "volumeTonnes": 82126.94,
+      "volumeKt": 82.127,
+      "tradeValue1000USD": 123609.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:032:076",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "volumeTonnes": 81847.0,
+      "volumeKt": 81.847,
+      "tradeValue1000USD": 38766.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 9.76
+    },
+    {
+      "id": "rice:356:288",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "288",
+        "iso3": "GHA",
+        "name": "Ghana",
+        "lat": 8,
+        "lon": -2
+      },
+      "volumeTonnes": 80138.19,
+      "volumeKt": 80.138,
+      "tradeValue1000USD": 30247.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 38.18
+    },
+    {
+      "id": "rice:764:784",
+      "from": {
+        "m49": "764",
+        "iso3": "THA",
+        "name": "Thailand",
+        "lat": 15,
+        "lon": 100
+      },
+      "to": {
+        "m49": "784",
+        "iso3": "ARE",
+        "name": "United Arab Emirates",
+        "lat": 24,
+        "lon": 54
+      },
+      "volumeTonnes": 80016.47,
+      "volumeKt": 80.016,
+      "tradeValue1000USD": 41309.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 78.56
+    },
+    {
+      "id": "rice:764:036",
+      "from": {
+        "m49": "764",
+        "iso3": "THA",
+        "name": "Thailand",
+        "lat": 15,
+        "lon": 100
+      },
+      "to": {
+        "m49": "036",
+        "iso3": "AUS",
+        "name": "Australia",
+        "lat": -27,
+        "lon": 133
+      },
+      "volumeTonnes": 78218.04,
+      "volumeKt": 78.218,
+      "tradeValue1000USD": 60415.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 1.41
+    },
+    {
+      "id": "rice:356:626",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "626",
+        "iso3": "TLS",
+        "name": "Timor-Leste",
+        "lat": -8.83333,
+        "lon": 125.91667
+      },
+      "volumeTonnes": 76790.66,
+      "volumeKt": 76.791,
+      "tradeValue1000USD": 25500.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 68.98
+    },
+    {
+      "id": "rice:356:124",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "124",
+        "iso3": "CAN",
+        "name": "Canada",
+        "lat": 60,
+        "lon": -95
+      },
+      "volumeTonnes": 75398.91,
+      "volumeKt": 75.399,
+      "tradeValue1000USD": 82029.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 12.87
+    },
+    {
+      "id": "rice:586:512",
+      "from": {
+        "m49": "586",
+        "iso3": "PAK",
+        "name": "Pakistan",
+        "lat": 30,
+        "lon": 70
+      },
+      "to": {
+        "m49": "512",
+        "iso3": "OMN",
+        "name": "Oman",
+        "lat": 21,
+        "lon": 57
+      },
+      "volumeTonnes": 75378.0,
+      "volumeKt": 75.378,
+      "tradeValue1000USD": 74536.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 36.13
+    },
+    {
+      "id": "rice:156:408",
+      "from": {
+        "m49": "156",
+        "iso3": "CHN",
+        "name": "China, mainland",
+        "lat": 35,
+        "lon": 105
+      },
+      "to": {
+        "m49": "408",
+        "iso3": "PRK",
+        "name": "Democratic People's Republic of Korea",
+        "lat": 40,
+        "lon": 127
+      },
+      "volumeTonnes": 74866.3,
+      "volumeKt": 74.866,
+      "tradeValue1000USD": 33209.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:840:682",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "682",
+        "iso3": "SAU",
+        "name": "Saudi Arabia",
+        "lat": 25,
+        "lon": 45
+      },
+      "volumeTonnes": 74486.98,
+      "volumeKt": 74.487,
+      "tradeValue1000USD": 67922.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 14.43
+    },
+    {
+      "id": "rice:704:344",
+      "from": {
+        "m49": "704",
+        "iso3": "VNM",
+        "name": "Viet Nam",
+        "lat": 16.16667,
+        "lon": 107.83333
+      },
+      "to": {
+        "m49": "344",
+        "iso3": "HKG",
+        "name": "China, Hong Kong SAR",
+        "lat": 22.25,
+        "lon": 114.16667
+      },
+      "volumeTonnes": 71814.51,
+      "volumeKt": 71.815,
+      "tradeValue1000USD": 40942.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 12.15
+    },
+    {
+      "id": "rice:586:508",
+      "from": {
+        "m49": "586",
+        "iso3": "PAK",
+        "name": "Pakistan",
+        "lat": 30,
+        "lon": 70
+      },
+      "to": {
+        "m49": "508",
+        "iso3": "MOZ",
+        "name": "Mozambique",
+        "lat": -18.25,
+        "lon": 35
+      },
+      "volumeTonnes": 71764.0,
+      "volumeKt": 71.764,
+      "tradeValue1000USD": 25358.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 59.24
+    },
+    {
+      "id": "rice:792:760",
+      "from": {
+        "m49": "792",
+        "iso3": "TUR",
+        "name": "Türkiye",
+        "lat": 39,
+        "lon": 35
+      },
+      "to": {
+        "m49": "760",
+        "iso3": "SYR",
+        "name": "Syrian Arab Republic",
+        "lat": 35,
+        "lon": 38
+      },
+      "volumeTonnes": 69834.93,
+      "volumeKt": 69.835,
+      "tradeValue1000USD": 42621.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "rice:356:562",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "562",
+        "iso3": "NER",
+        "name": "Niger",
+        "lat": 16,
+        "lon": 8
+      },
+      "volumeTonnes": 68956.5,
+      "volumeKt": 68.957,
+      "tradeValue1000USD": 22349.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 85.86
+    },
+    {
+      "id": "rice:586:204",
+      "from": {
+        "m49": "586",
+        "iso3": "PAK",
+        "name": "Pakistan",
+        "lat": 30,
+        "lon": 70
+      },
+      "to": {
+        "m49": "204",
+        "iso3": "BEN",
+        "name": "Benin",
+        "lat": 9.5,
+        "lon": 2.25
+      },
+      "volumeTonnes": 67582.0,
+      "volumeKt": 67.582,
+      "tradeValue1000USD": 32214.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 2.08
+    },
+    {
+      "id": "rice:356:528",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "528",
+        "iso3": "NLD",
+        "name": "Netherlands (Kingdom of the)",
+        "lat": 52.5,
+        "lon": 5.75
+      },
+      "volumeTonnes": 67484.1,
+      "volumeKt": 67.484,
+      "tradeValue1000USD": 61118.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 49.91
+    },
+    {
+      "id": "rice:356:854",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "854",
+        "iso3": "BFA",
+        "name": "Burkina Faso",
+        "lat": 13,
+        "lon": -2
+      },
+      "volumeTonnes": 65704.43,
+      "volumeKt": 65.704,
+      "tradeValue1000USD": 21479.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 69.7
+    },
+    {
+      "id": "rice:076:604",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "604",
+        "iso3": "PER",
+        "name": "Peru",
+        "lat": -10,
+        "lon": -76
+      },
+      "volumeTonnes": 64797.39,
+      "volumeKt": 64.797,
+      "tradeValue1000USD": 36763.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 1.77
+    }
+  ]
+}

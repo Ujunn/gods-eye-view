@@ -1,4 +1,5 @@
 import { syncChipGroup } from './chipGroup.js';
+import { createTradeRouteSlider, syncTradeRouteSlider } from './tradeRouteSlider.js';
 import { syncRowList } from './rowList.js';
 import { layerFeedState } from '../data/feedState.js';
 export { layerFeedState } from '../data/feedState.js';
@@ -33,6 +34,7 @@ const PANEL_GROUPS = [
       'bikeshare',
     ],
   },
+  { label: 'Trade', ids: ['rice-trade', 'agri-rice-2022', 'agri-wheat-2022', 'agri-maize-2022', 'agri-soybeans-2022'] },
   {
     label: 'Cameras',
     ids: ['cctv', 'recent-imagery', 'street-level'],
@@ -287,6 +289,16 @@ export class LayerPanel {
       row.appendChild(topRow);
       row.appendChild(bottomRow);
 
+      // Second-level range for the four FAOSTAT trade layers only.
+      const routeSliderDescriptor = this._rowControlsFor(layer.id)?.range;
+      if (routeSliderDescriptor) {
+        row.appendChild(createTradeRouteSlider(
+          routeSliderDescriptor,
+          (element, type, fn) => this._bind(element, type, fn),
+          (value, key) => this.setLayerParams(layer.id, { [key]: value }, { origin: 'user' }),
+        ));
+      }
+
       // Optional per-layer sub-controls (chips + color legend). The click
       // listener is delegated and attached once here, so it survives
       // _refreshTogglePanel — which only rewrites the container's contents.
@@ -514,6 +526,11 @@ export class LayerPanel {
       const meta = row.querySelector('.data-toggle-meta');
       if (meta) {
         meta.textContent = this._buildMetaText(layer);
+      }
+
+      const tradeSlider = row.querySelector('.gev-trade-route-slider');
+      if (tradeSlider) {
+        syncTradeRouteSlider(tradeSlider, this._rowControlsFor(layer.id)?.range);
       }
 
       this._syncRowControls(

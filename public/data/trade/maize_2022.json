@@ -1,0 +1,2908 @@
+{
+  "year": 2022,
+  "crop": "maize",
+  "itemCode": 56,
+  "itemName": "Maize (corn)",
+  "color": "#7ED957",
+  "simulated": false,
+  "source": "FAOSTAT Detailed Trade Matrix",
+  "sourceUrl": "https://bulks-faostat.fao.org/production/Trade_DetailedTradeMatrix_E_All_Data_(Normalized).zip",
+  "metric": "Export Quantity (tonnes), import mirror only if exporter record missing",
+  "selection": {
+    "minimumTonnes": 20000,
+    "targetCoveragePct": 95,
+    "maxRoutes": 120,
+    "actualCoveragePct": 87.484,
+    "selectedRoutes": 120,
+    "allValidGeocodedRoutes": 3095,
+    "selectedVolumeTonnes": 183706707.78,
+    "allValidGeocodedVolumeTonnes": 209988163.65
+  },
+  "stats": {
+    "reportedExports": 2214,
+    "mirrorImports": 881,
+    "pairsWithMirrorDisagreementAbove20Pct": 959
+  },
+  "routes": [
+    {
+      "id": "maize:840:156",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "156",
+        "iso3": "CHN",
+        "name": "China, mainland",
+        "lat": 35,
+        "lon": 105
+      },
+      "volumeTonnes": 16096459.32,
+      "volumeKt": 16096.459,
+      "tradeValue1000USD": 5261607.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 7.65
+    },
+    {
+      "id": "maize:840:484",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "484",
+        "iso3": "MEX",
+        "name": "Mexico",
+        "lat": 23,
+        "lon": -102
+      },
+      "volumeTonnes": 15478568.72,
+      "volumeKt": 15478.569,
+      "tradeValue1000USD": 4987444.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 1.48
+    },
+    {
+      "id": "maize:840:392",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "392",
+        "iso3": "JPN",
+        "name": "Japan",
+        "lat": 36,
+        "lon": 138
+      },
+      "volumeTonnes": 8931067.97,
+      "volumeKt": 8931.068,
+      "tradeValue1000USD": 3014118.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 9.81
+    },
+    {
+      "id": "maize:076:364",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "364",
+        "iso3": "IRN",
+        "name": "Iran (Islamic Republic of)",
+        "lat": 32,
+        "lon": 53
+      },
+      "volumeTonnes": 6580551.06,
+      "volumeKt": 6580.551,
+      "tradeValue1000USD": 2010735.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 96.43
+    },
+    {
+      "id": "maize:840:124",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "124",
+        "iso3": "CAN",
+        "name": "Canada",
+        "lat": 60,
+        "lon": -95
+      },
+      "volumeTonnes": 5295118.08,
+      "volumeKt": 5295.118,
+      "tradeValue1000USD": 1463154.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 7.98
+    },
+    {
+      "id": "maize:032:704",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "704",
+        "iso3": "VNM",
+        "name": "Viet Nam",
+        "lat": 16.16667,
+        "lon": 107.83333
+      },
+      "volumeTonnes": 5224420.0,
+      "volumeKt": 5224.42,
+      "tradeValue1000USD": 1361293.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 7.88
+    },
+    {
+      "id": "maize:032:410",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "410",
+        "iso3": "KOR",
+        "name": "Republic of Korea",
+        "lat": 37,
+        "lon": 127.5
+      },
+      "volumeTonnes": 4997390.0,
+      "volumeKt": 4997.39,
+      "tradeValue1000USD": 1298924.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 6.47
+    },
+    {
+      "id": "maize:076:724",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "724",
+        "iso3": "ESP",
+        "name": "Spain",
+        "lat": 40,
+        "lon": -4
+      },
+      "volumeTonnes": 4925554.67,
+      "volumeKt": 4925.555,
+      "tradeValue1000USD": 1370060.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 12.03
+    },
+    {
+      "id": "maize:076:392",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "392",
+        "iso3": "JPN",
+        "name": "Japan",
+        "lat": 36,
+        "lon": 138
+      },
+      "volumeTonnes": 4911472.02,
+      "volumeKt": 4911.472,
+      "tradeValue1000USD": 1355272.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 28.79
+    },
+    {
+      "id": "maize:804:156",
+      "from": {
+        "m49": "804",
+        "iso3": "UKR",
+        "name": "Ukraine",
+        "lat": 49,
+        "lon": 32
+      },
+      "to": {
+        "m49": "156",
+        "iso3": "CHN",
+        "name": "China, mainland",
+        "lat": 35,
+        "lon": 105
+      },
+      "volumeTonnes": 4414962.13,
+      "volumeKt": 4414.962,
+      "tradeValue1000USD": 1056383.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 16.13
+    },
+    {
+      "id": "maize:076:818",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "818",
+        "iso3": "EGY",
+        "name": "Egypt",
+        "lat": 27,
+        "lon": 30
+      },
+      "volumeTonnes": 3955853.53,
+      "volumeKt": 3955.854,
+      "tradeValue1000USD": 1069772.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 11.59
+    },
+    {
+      "id": "maize:804:642",
+      "from": {
+        "m49": "804",
+        "iso3": "UKR",
+        "name": "Ukraine",
+        "lat": 49,
+        "lon": 32
+      },
+      "to": {
+        "m49": "642",
+        "iso3": "ROU",
+        "name": "Romania",
+        "lat": 46,
+        "lon": 25
+      },
+      "volumeTonnes": 3537213.78,
+      "volumeKt": 3537.214,
+      "tradeValue1000USD": 858369.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 78.88
+    },
+    {
+      "id": "maize:032:604",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "604",
+        "iso3": "PER",
+        "name": "Peru",
+        "lat": -10,
+        "lon": -76
+      },
+      "volumeTonnes": 3233670.0,
+      "volumeKt": 3233.67,
+      "tradeValue1000USD": 828593.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 3.0
+    },
+    {
+      "id": "maize:840:170",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "170",
+        "iso3": "COL",
+        "name": "Colombia",
+        "lat": 4,
+        "lon": -72
+      },
+      "volumeTonnes": 3038418.23,
+      "volumeKt": 3038.418,
+      "tradeValue1000USD": 983546.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 3.21
+    },
+    {
+      "id": "maize:032:458",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "458",
+        "iso3": "MYS",
+        "name": "Malaysia",
+        "lat": 2.5,
+        "lon": 112.5
+      },
+      "volumeTonnes": 2823840.0,
+      "volumeKt": 2823.84,
+      "tradeValue1000USD": 737261.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 7.51
+    },
+    {
+      "id": "maize:032:012",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "012",
+        "iso3": "DZA",
+        "name": "Algeria",
+        "lat": 28,
+        "lon": 3
+      },
+      "volumeTonnes": 2769960.0,
+      "volumeKt": 2769.96,
+      "tradeValue1000USD": 704036.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "maize:804:724",
+      "from": {
+        "m49": "804",
+        "iso3": "UKR",
+        "name": "Ukraine",
+        "lat": 49,
+        "lon": 32
+      },
+      "to": {
+        "m49": "724",
+        "iso3": "ESP",
+        "name": "Spain",
+        "lat": 40,
+        "lon": -4
+      },
+      "volumeTonnes": 2762250.81,
+      "volumeKt": 2762.251,
+      "tradeValue1000USD": 657473.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 11.81
+    },
+    {
+      "id": "maize:076:170",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "170",
+        "iso3": "COL",
+        "name": "Colombia",
+        "lat": 4,
+        "lon": -72
+      },
+      "volumeTonnes": 2439627.7,
+      "volumeKt": 2439.628,
+      "tradeValue1000USD": 695732.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 0.31
+    },
+    {
+      "id": "maize:032:818",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "818",
+        "iso3": "EGY",
+        "name": "Egypt",
+        "lat": 27,
+        "lon": 30
+      },
+      "volumeTonnes": 2418050.0,
+      "volumeKt": 2418.05,
+      "tradeValue1000USD": 624112.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 34.32
+    },
+    {
+      "id": "maize:076:410",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "410",
+        "iso3": "KOR",
+        "name": "Republic of Korea",
+        "lat": 37,
+        "lon": 127.5
+      },
+      "volumeTonnes": 2397144.85,
+      "volumeKt": 2397.145,
+      "tradeValue1000USD": 649849.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 14.36
+    },
+    {
+      "id": "maize:032:682",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "682",
+        "iso3": "SAU",
+        "name": "Saudi Arabia",
+        "lat": 25,
+        "lon": 45
+      },
+      "volumeTonnes": 2359820.0,
+      "volumeKt": 2359.82,
+      "tradeValue1000USD": 625876.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 5.26
+    },
+    {
+      "id": "maize:600:076",
+      "from": {
+        "m49": "600",
+        "iso3": "PRY",
+        "name": "Paraguay",
+        "lat": -23,
+        "lon": -58
+      },
+      "to": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "volumeTonnes": 2331390.0,
+      "volumeKt": 2331.39,
+      "tradeValue1000USD": 526715.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 0.12
+    },
+    {
+      "id": "maize:804:616",
+      "from": {
+        "m49": "804",
+        "iso3": "UKR",
+        "name": "Ukraine",
+        "lat": 49,
+        "lon": 32
+      },
+      "to": {
+        "m49": "616",
+        "iso3": "POL",
+        "name": "Poland",
+        "lat": 52,
+        "lon": 20
+      },
+      "volumeTonnes": 2099728.05,
+      "volumeKt": 2099.728,
+      "tradeValue1000USD": 493889.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 11.99
+    },
+    {
+      "id": "maize:616:276",
+      "from": {
+        "m49": "616",
+        "iso3": "POL",
+        "name": "Poland",
+        "lat": 52,
+        "lon": 20
+      },
+      "to": {
+        "m49": "276",
+        "iso3": "DEU",
+        "name": "Germany",
+        "lat": 51,
+        "lon": 9
+      },
+      "volumeTonnes": 1871167.77,
+      "volumeKt": 1871.168,
+      "tradeValue1000USD": 608559.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 11.85
+    },
+    {
+      "id": "maize:076:704",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "704",
+        "iso3": "VNM",
+        "name": "Viet Nam",
+        "lat": 16.16667,
+        "lon": 107.83333
+      },
+      "volumeTonnes": 1808872.66,
+      "volumeKt": 1808.873,
+      "tradeValue1000USD": 486449.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 20.66
+    },
+    {
+      "id": "maize:356:050",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "050",
+        "iso3": "BGD",
+        "name": "Bangladesh",
+        "lat": 24,
+        "lon": 90
+      },
+      "volumeTonnes": 1780982.52,
+      "volumeKt": 1780.983,
+      "tradeValue1000USD": 575785.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "maize:076:484",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "484",
+        "iso3": "MEX",
+        "name": "Mexico",
+        "lat": 23,
+        "lon": -102
+      },
+      "volumeTonnes": 1727594.79,
+      "volumeKt": 1727.595,
+      "tradeValue1000USD": 492110.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 71.2
+    },
+    {
+      "id": "maize:032:152",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "152",
+        "iso3": "CHL",
+        "name": "Chile",
+        "lat": -30,
+        "lon": -71
+      },
+      "volumeTonnes": 1633543.53,
+      "volumeKt": 1633.544,
+      "tradeValue1000USD": 416811.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 7.11
+    },
+    {
+      "id": "maize:076:158",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "158",
+        "iso3": "TWN",
+        "name": "China, Taiwan Province of",
+        "lat": 23.5,
+        "lon": 121
+      },
+      "volumeTonnes": 1618745.05,
+      "volumeKt": 1618.745,
+      "tradeValue1000USD": 431217.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 9.23
+    },
+    {
+      "id": "maize:804:380",
+      "from": {
+        "m49": "804",
+        "iso3": "UKR",
+        "name": "Ukraine",
+        "lat": 49,
+        "lon": 32
+      },
+      "to": {
+        "m49": "380",
+        "iso3": "ITA",
+        "name": "Italy",
+        "lat": 42.83333,
+        "lon": 12.83333
+      },
+      "volumeTonnes": 1437764.27,
+      "volumeKt": 1437.764,
+      "tradeValue1000USD": 324370.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 14.39
+    },
+    {
+      "id": "maize:250:724",
+      "from": {
+        "m49": "250",
+        "iso3": "FRA",
+        "name": "France",
+        "lat": 46,
+        "lon": 2
+      },
+      "to": {
+        "m49": "724",
+        "iso3": "ESP",
+        "name": "Spain",
+        "lat": 40,
+        "lon": -4
+      },
+      "volumeTonnes": 1423280.88,
+      "volumeKt": 1423.281,
+      "tradeValue1000USD": 498864.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 2.92
+    },
+    {
+      "id": "maize:804:528",
+      "from": {
+        "m49": "804",
+        "iso3": "UKR",
+        "name": "Ukraine",
+        "lat": 49,
+        "lon": 32
+      },
+      "to": {
+        "m49": "528",
+        "iso3": "NLD",
+        "name": "Netherlands (Kingdom of the)",
+        "lat": 52.5,
+        "lon": 5.75
+      },
+      "volumeTonnes": 1408921.17,
+      "volumeKt": 1408.921,
+      "tradeValue1000USD": 332747.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 13.0
+    },
+    {
+      "id": "maize:804:792",
+      "from": {
+        "m49": "804",
+        "iso3": "UKR",
+        "name": "Ukraine",
+        "lat": 49,
+        "lon": 32
+      },
+      "to": {
+        "m49": "792",
+        "iso3": "TUR",
+        "name": "Türkiye",
+        "lat": 39,
+        "lon": 35
+      },
+      "volumeTonnes": 1395072.62,
+      "volumeKt": 1395.073,
+      "tradeValue1000USD": 295903.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 5.59
+    },
+    {
+      "id": "maize:840:410",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "410",
+        "iso3": "KOR",
+        "name": "Republic of Korea",
+        "lat": 37,
+        "lon": 127.5
+      },
+      "volumeTonnes": 1387229.76,
+      "volumeKt": 1387.23,
+      "tradeValue1000USD": 523920.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 6.79
+    },
+    {
+      "id": "maize:032:158",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "158",
+        "iso3": "TWN",
+        "name": "China, Taiwan Province of",
+        "lat": 23.5,
+        "lon": 121
+      },
+      "volumeTonnes": 1370400.0,
+      "volumeKt": 1370.4,
+      "tradeValue1000USD": 346293.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 0.02
+    },
+    {
+      "id": "maize:804:348",
+      "from": {
+        "m49": "804",
+        "iso3": "UKR",
+        "name": "Ukraine",
+        "lat": 49,
+        "lon": 32
+      },
+      "to": {
+        "m49": "348",
+        "iso3": "HUN",
+        "name": "Hungary",
+        "lat": 47,
+        "lon": 20
+      },
+      "volumeTonnes": 1336253.52,
+      "volumeKt": 1336.254,
+      "tradeValue1000USD": 339331.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 17.93
+    },
+    {
+      "id": "maize:076:682",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "682",
+        "iso3": "SAU",
+        "name": "Saudi Arabia",
+        "lat": 25,
+        "lon": 45
+      },
+      "volumeTonnes": 1268437.59,
+      "volumeKt": 1268.438,
+      "tradeValue1000USD": 358463.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 6.5
+    },
+    {
+      "id": "maize:804:818",
+      "from": {
+        "m49": "804",
+        "iso3": "UKR",
+        "name": "Ukraine",
+        "lat": 49,
+        "lon": 32
+      },
+      "to": {
+        "m49": "818",
+        "iso3": "EGY",
+        "name": "Egypt",
+        "lat": 27,
+        "lon": 30
+      },
+      "volumeTonnes": 1255970.81,
+      "volumeKt": 1255.971,
+      "tradeValue1000USD": 294003.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 30.89
+    },
+    {
+      "id": "maize:076:156",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "156",
+        "iso3": "CHN",
+        "name": "China, mainland",
+        "lat": 35,
+        "lon": 105
+      },
+      "volumeTonnes": 1165175.51,
+      "volumeKt": 1165.176,
+      "tradeValue1000USD": 325154.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 100.0
+    },
+    {
+      "id": "maize:643:792",
+      "from": {
+        "m49": "643",
+        "iso3": "RUS",
+        "name": "Russian Federation",
+        "lat": 60,
+        "lon": 100
+      },
+      "to": {
+        "m49": "792",
+        "iso3": "TUR",
+        "name": "Türkiye",
+        "lat": 39,
+        "lon": 35
+      },
+      "volumeTonnes": 1147658.72,
+      "volumeKt": 1147.659,
+      "tradeValue1000USD": 405672.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "maize:348:380",
+      "from": {
+        "m49": "348",
+        "iso3": "HUN",
+        "name": "Hungary",
+        "lat": 47,
+        "lon": 20
+      },
+      "to": {
+        "m49": "380",
+        "iso3": "ITA",
+        "name": "Italy",
+        "lat": 42.83333,
+        "lon": 12.83333
+      },
+      "volumeTonnes": 1122890.1,
+      "volumeKt": 1122.89,
+      "tradeValue1000USD": 344160.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 11.59
+    },
+    {
+      "id": "maize:250:528",
+      "from": {
+        "m49": "250",
+        "iso3": "FRA",
+        "name": "France",
+        "lat": 46,
+        "lon": 2
+      },
+      "to": {
+        "m49": "528",
+        "iso3": "NLD",
+        "name": "Netherlands (Kingdom of the)",
+        "lat": 52.5,
+        "lon": 5.75
+      },
+      "volumeTonnes": 1070155.72,
+      "volumeKt": 1070.156,
+      "tradeValue1000USD": 329343.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 3.51
+    },
+    {
+      "id": "maize:642:724",
+      "from": {
+        "m49": "642",
+        "iso3": "ROU",
+        "name": "Romania",
+        "lat": 46,
+        "lon": 25
+      },
+      "to": {
+        "m49": "724",
+        "iso3": "ESP",
+        "name": "Spain",
+        "lat": 40,
+        "lon": -4
+      },
+      "volumeTonnes": 1021575.61,
+      "volumeKt": 1021.576,
+      "tradeValue1000USD": 327009.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 16.11
+    },
+    {
+      "id": "maize:840:320",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "320",
+        "iso3": "GTM",
+        "name": "Guatemala",
+        "lat": 15.5,
+        "lon": -90.25
+      },
+      "volumeTonnes": 979289.68,
+      "volumeKt": 979.29,
+      "tradeValue1000USD": 296658.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 4.03
+    },
+    {
+      "id": "maize:032:170",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "170",
+        "iso3": "COL",
+        "name": "Colombia",
+        "lat": 4,
+        "lon": -72
+      },
+      "volumeTonnes": 960706.0,
+      "volumeKt": 960.706,
+      "tradeValue1000USD": 260237.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 2.44
+    },
+    {
+      "id": "maize:840:340",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "340",
+        "iso3": "HND",
+        "name": "Honduras",
+        "lat": 15,
+        "lon": -86.5
+      },
+      "volumeTonnes": 942516.72,
+      "volumeKt": 942.517,
+      "tradeValue1000USD": 295363.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "maize:076:380",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "380",
+        "iso3": "ITA",
+        "name": "Italy",
+        "lat": 42.83333,
+        "lon": 12.83333
+      },
+      "volumeTonnes": 939820.49,
+      "volumeKt": 939.82,
+      "tradeValue1000USD": 236358.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 8.45
+    },
+    {
+      "id": "maize:076:620",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "620",
+        "iso3": "PRT",
+        "name": "Portugal",
+        "lat": 39.5,
+        "lon": -8
+      },
+      "volumeTonnes": 936736.71,
+      "volumeKt": 936.737,
+      "tradeValue1000USD": 275408.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 20.8
+    },
+    {
+      "id": "maize:250:056",
+      "from": {
+        "m49": "250",
+        "iso3": "FRA",
+        "name": "France",
+        "lat": 46,
+        "lon": 2
+      },
+      "to": {
+        "m49": "056",
+        "iso3": "BEL",
+        "name": "Belgium",
+        "lat": 50.83333,
+        "lon": 4
+      },
+      "volumeTonnes": 933765.71,
+      "volumeKt": 933.766,
+      "tradeValue1000USD": 314925.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 1.78
+    },
+    {
+      "id": "maize:032:504",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "504",
+        "iso3": "MAR",
+        "name": "Morocco",
+        "lat": 32,
+        "lon": -5
+      },
+      "volumeTonnes": 927067.0,
+      "volumeKt": 927.067,
+      "tradeValue1000USD": 241592.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 1.27
+    },
+    {
+      "id": "maize:710:158",
+      "from": {
+        "m49": "710",
+        "iso3": "ZAF",
+        "name": "South Africa",
+        "lat": -29,
+        "lon": 24
+      },
+      "to": {
+        "m49": "158",
+        "iso3": "TWN",
+        "name": "China, Taiwan Province of",
+        "lat": 23.5,
+        "lon": 121
+      },
+      "volumeTonnes": 925410.35,
+      "volumeKt": 925.41,
+      "tradeValue1000USD": 300429.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 10.43
+    },
+    {
+      "id": "maize:076:528",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "528",
+        "iso3": "NLD",
+        "name": "Netherlands (Kingdom of the)",
+        "lat": 52.5,
+        "lon": 5.75
+      },
+      "volumeTonnes": 924280.87,
+      "volumeKt": 924.281,
+      "tradeValue1000USD": 258530.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 10.79
+    },
+    {
+      "id": "maize:032:392",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "392",
+        "iso3": "JPN",
+        "name": "Japan",
+        "lat": 36,
+        "lon": 138
+      },
+      "volumeTonnes": 917153.0,
+      "volumeKt": 917.153,
+      "tradeValue1000USD": 232644.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 8.66
+    },
+    {
+      "id": "maize:600:152",
+      "from": {
+        "m49": "600",
+        "iso3": "PRY",
+        "name": "Paraguay",
+        "lat": -23,
+        "lon": -58
+      },
+      "to": {
+        "m49": "152",
+        "iso3": "CHL",
+        "name": "Chile",
+        "lat": -30,
+        "lon": -71
+      },
+      "volumeTonnes": 899303.0,
+      "volumeKt": 899.303,
+      "tradeValue1000USD": 224998.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 18.31
+    },
+    {
+      "id": "maize:032:360",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "360",
+        "iso3": "IDN",
+        "name": "Indonesia",
+        "lat": -5,
+        "lon": 120
+      },
+      "volumeTonnes": 849042.0,
+      "volumeKt": 849.042,
+      "tradeValue1000USD": 224448.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 3.67
+    },
+    {
+      "id": "maize:076:012",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "012",
+        "iso3": "DZA",
+        "name": "Algeria",
+        "lat": 28,
+        "lon": 3
+      },
+      "volumeTonnes": 796377.73,
+      "volumeKt": 796.378,
+      "tradeValue1000USD": 219553.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "maize:356:704",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "704",
+        "iso3": "VNM",
+        "name": "Viet Nam",
+        "lat": 16.16667,
+        "lon": 107.83333
+      },
+      "volumeTonnes": 783987.98,
+      "volumeKt": 783.988,
+      "tradeValue1000USD": 234579.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 10.13
+    },
+    {
+      "id": "maize:840:158",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "158",
+        "iso3": "TWN",
+        "name": "China, Taiwan Province of",
+        "lat": 23.5,
+        "lon": 121
+      },
+      "volumeTonnes": 779808.56,
+      "volumeKt": 779.809,
+      "tradeValue1000USD": 269577.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 99.9
+    },
+    {
+      "id": "maize:840:682",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "682",
+        "iso3": "SAU",
+        "name": "Saudi Arabia",
+        "lat": 25,
+        "lon": 45
+      },
+      "volumeTonnes": 766317.13,
+      "volumeKt": 766.317,
+      "tradeValue1000USD": 255529.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 0.5
+    },
+    {
+      "id": "maize:076:214",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "214",
+        "iso3": "DOM",
+        "name": "Dominican Republic",
+        "lat": 19,
+        "lon": -70.66667
+      },
+      "volumeTonnes": 757523.86,
+      "volumeKt": 757.524,
+      "tradeValue1000USD": 211005.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 1.04
+    },
+    {
+      "id": "maize:124:372",
+      "from": {
+        "m49": "124",
+        "iso3": "CAN",
+        "name": "Canada",
+        "lat": 60,
+        "lon": -95
+      },
+      "to": {
+        "m49": "372",
+        "iso3": "IRL",
+        "name": "Ireland",
+        "lat": 53,
+        "lon": -8
+      },
+      "volumeTonnes": 722581.69,
+      "volumeKt": 722.582,
+      "tradeValue1000USD": 216490.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 26.44
+    },
+    {
+      "id": "maize:710:392",
+      "from": {
+        "m49": "710",
+        "iso3": "ZAF",
+        "name": "South Africa",
+        "lat": -29,
+        "lon": 24
+      },
+      "to": {
+        "m49": "392",
+        "iso3": "JPN",
+        "name": "Japan",
+        "lat": 36,
+        "lon": 138
+      },
+      "volumeTonnes": 711314.26,
+      "volumeKt": 711.314,
+      "tradeValue1000USD": 228934.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 4.42
+    },
+    {
+      "id": "maize:804:410",
+      "from": {
+        "m49": "804",
+        "iso3": "UKR",
+        "name": "Ukraine",
+        "lat": 49,
+        "lon": 32
+      },
+      "to": {
+        "m49": "410",
+        "iso3": "KOR",
+        "name": "Republic of Korea",
+        "lat": 37,
+        "lon": 127.5
+      },
+      "volumeTonnes": 707396.27,
+      "volumeKt": 707.396,
+      "tradeValue1000USD": 175441.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 49.0
+    },
+    {
+      "id": "maize:076:376",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "376",
+        "iso3": "ISR",
+        "name": "Israel",
+        "lat": 31.5,
+        "lon": 34.75
+      },
+      "volumeTonnes": 647951.63,
+      "volumeKt": 647.952,
+      "tradeValue1000USD": 174204.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 21.19
+    },
+    {
+      "id": "maize:191:380",
+      "from": {
+        "m49": "191",
+        "iso3": "HRV",
+        "name": "Croatia",
+        "lat": 45.16667,
+        "lon": 15.5
+      },
+      "to": {
+        "m49": "380",
+        "iso3": "ITA",
+        "name": "Italy",
+        "lat": 42.83333,
+        "lon": 12.83333
+      },
+      "volumeTonnes": 641544.46,
+      "volumeKt": 641.544,
+      "tradeValue1000USD": 217795.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 0.05
+    },
+    {
+      "id": "maize:705:380",
+      "from": {
+        "m49": "705",
+        "iso3": "SVN",
+        "name": "Slovenia",
+        "lat": 46.11667,
+        "lon": 14.81667
+      },
+      "to": {
+        "m49": "380",
+        "iso3": "ITA",
+        "name": "Italy",
+        "lat": 42.83333,
+        "lon": 12.83333
+      },
+      "volumeTonnes": 639256.5,
+      "volumeKt": 639.256,
+      "tradeValue1000USD": 218148.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 4.65
+    },
+    {
+      "id": "maize:032:887",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "887",
+        "iso3": "YEM",
+        "name": "Yemen",
+        "lat": 15,
+        "lon": 48
+      },
+      "volumeTonnes": 639113.0,
+      "volumeKt": 639.113,
+      "tradeValue1000USD": 168458.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "maize:076:504",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "504",
+        "iso3": "MAR",
+        "name": "Morocco",
+        "lat": 32,
+        "lon": -5
+      },
+      "volumeTonnes": 638501.12,
+      "volumeKt": 638.501,
+      "tradeValue1000USD": 178305.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 2.02
+    },
+    {
+      "id": "maize:642:380",
+      "from": {
+        "m49": "642",
+        "iso3": "ROU",
+        "name": "Romania",
+        "lat": 46,
+        "lon": 25
+      },
+      "to": {
+        "m49": "380",
+        "iso3": "ITA",
+        "name": "Italy",
+        "lat": 42.83333,
+        "lon": 12.83333
+      },
+      "volumeTonnes": 612583.59,
+      "volumeKt": 612.584,
+      "tradeValue1000USD": 207239.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 3.54
+    },
+    {
+      "id": "maize:804:364",
+      "from": {
+        "m49": "804",
+        "iso3": "UKR",
+        "name": "Ukraine",
+        "lat": 49,
+        "lon": 32
+      },
+      "to": {
+        "m49": "364",
+        "iso3": "IRN",
+        "name": "Iran (Islamic Republic of)",
+        "lat": 32,
+        "lon": 53
+      },
+      "volumeTonnes": 606757.41,
+      "volumeKt": 606.757,
+      "tradeValue1000USD": 161727.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "maize:616:528",
+      "from": {
+        "m49": "616",
+        "iso3": "POL",
+        "name": "Poland",
+        "lat": 52,
+        "lon": 20
+      },
+      "to": {
+        "m49": "528",
+        "iso3": "NLD",
+        "name": "Netherlands (Kingdom of the)",
+        "lat": 52.5,
+        "lon": 5.75
+      },
+      "volumeTonnes": 586107.96,
+      "volumeKt": 586.108,
+      "tradeValue1000USD": 199911.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 48.66
+    },
+    {
+      "id": "maize:076:458",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "458",
+        "iso3": "MYS",
+        "name": "Malaysia",
+        "lat": 2.5,
+        "lon": 112.5
+      },
+      "volumeTonnes": 560747.55,
+      "volumeKt": 560.748,
+      "tradeValue1000USD": 155858.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 14.1
+    },
+    {
+      "id": "maize:840:222",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "222",
+        "iso3": "SLV",
+        "name": "El Salvador",
+        "lat": 13.83333,
+        "lon": -88.91667
+      },
+      "volumeTonnes": 559543.62,
+      "volumeKt": 559.544,
+      "tradeValue1000USD": 177137.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 2.68
+    },
+    {
+      "id": "maize:076:372",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "372",
+        "iso3": "IRL",
+        "name": "Ireland",
+        "lat": 53,
+        "lon": -8
+      },
+      "volumeTonnes": 545058.04,
+      "volumeKt": 545.058,
+      "tradeValue1000USD": 149774.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 11.09
+    },
+    {
+      "id": "maize:642:528",
+      "from": {
+        "m49": "642",
+        "iso3": "ROU",
+        "name": "Romania",
+        "lat": 46,
+        "lon": 25
+      },
+      "to": {
+        "m49": "528",
+        "iso3": "NLD",
+        "name": "Netherlands (Kingdom of the)",
+        "lat": 52.5,
+        "lon": 5.75
+      },
+      "volumeTonnes": 544820.07,
+      "volumeKt": 544.82,
+      "tradeValue1000USD": 177140.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 27.0
+    },
+    {
+      "id": "maize:840:188",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "188",
+        "iso3": "CRI",
+        "name": "Costa Rica",
+        "lat": 10,
+        "lon": -84
+      },
+      "volumeTonnes": 533122.6,
+      "volumeKt": 533.123,
+      "tradeValue1000USD": 168355.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 0.25
+    },
+    {
+      "id": "maize:710:704",
+      "from": {
+        "m49": "710",
+        "iso3": "ZAF",
+        "name": "South Africa",
+        "lat": -29,
+        "lon": 24
+      },
+      "to": {
+        "m49": "704",
+        "iso3": "VNM",
+        "name": "Viet Nam",
+        "lat": 16.16667,
+        "lon": 107.83333
+      },
+      "volumeTonnes": 531834.67,
+      "volumeKt": 531.835,
+      "tradeValue1000USD": 175718.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 14.85
+    },
+    {
+      "id": "maize:076:320",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "320",
+        "iso3": "GTM",
+        "name": "Guatemala",
+        "lat": 15.5,
+        "lon": -90.25
+      },
+      "volumeTonnes": 528586.77,
+      "volumeKt": 528.587,
+      "tradeValue1000USD": 145533.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 5.4
+    },
+    {
+      "id": "maize:032:400",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "400",
+        "iso3": "JOR",
+        "name": "Jordan",
+        "lat": 31,
+        "lon": 36
+      },
+      "volumeTonnes": 522277.0,
+      "volumeKt": 522.277,
+      "tradeValue1000USD": 130744.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 19.79
+    },
+    {
+      "id": "maize:104:764",
+      "from": {
+        "m49": "104",
+        "iso3": "MMR",
+        "name": "Myanmar",
+        "lat": 21.92,
+        "lon": 95.96
+      },
+      "to": {
+        "m49": "764",
+        "iso3": "THA",
+        "name": "Thailand",
+        "lat": 15,
+        "lon": 100
+      },
+      "volumeTonnes": 508232.87,
+      "volumeKt": 508.233,
+      "tradeValue1000USD": 358216.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 63.05
+    },
+    {
+      "id": "maize:840:724",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "724",
+        "iso3": "ESP",
+        "name": "Spain",
+        "lat": 40,
+        "lon": -4
+      },
+      "volumeTonnes": 498338.37,
+      "volumeKt": 498.338,
+      "tradeValue1000USD": 156682.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 0.92
+    },
+    {
+      "id": "maize:804:376",
+      "from": {
+        "m49": "804",
+        "iso3": "UKR",
+        "name": "Ukraine",
+        "lat": 49,
+        "lon": 32
+      },
+      "to": {
+        "m49": "376",
+        "iso3": "ISR",
+        "name": "Israel",
+        "lat": 31.5,
+        "lon": 34.75
+      },
+      "volumeTonnes": 497185.49,
+      "volumeKt": 497.185,
+      "tradeValue1000USD": 118139.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 18.6
+    },
+    {
+      "id": "maize:804:276",
+      "from": {
+        "m49": "804",
+        "iso3": "UKR",
+        "name": "Ukraine",
+        "lat": 49,
+        "lon": 32
+      },
+      "to": {
+        "m49": "276",
+        "iso3": "DEU",
+        "name": "Germany",
+        "lat": 51,
+        "lon": 9
+      },
+      "volumeTonnes": 486155.13,
+      "volumeKt": 486.155,
+      "tradeValue1000USD": 119968.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 20.02
+    },
+    {
+      "id": "maize:250:276",
+      "from": {
+        "m49": "250",
+        "iso3": "FRA",
+        "name": "France",
+        "lat": 46,
+        "lon": 2
+      },
+      "to": {
+        "m49": "276",
+        "iso3": "DEU",
+        "name": "Germany",
+        "lat": 51,
+        "lon": 9
+      },
+      "volumeTonnes": 480899.21,
+      "volumeKt": 480.899,
+      "tradeValue1000USD": 312689.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 10.08
+    },
+    {
+      "id": "maize:642:410",
+      "from": {
+        "m49": "642",
+        "iso3": "ROU",
+        "name": "Romania",
+        "lat": 46,
+        "lon": 25
+      },
+      "to": {
+        "m49": "410",
+        "iso3": "KOR",
+        "name": "Republic of Korea",
+        "lat": 37,
+        "lon": 127.5
+      },
+      "volumeTonnes": 479717.97,
+      "volumeKt": 479.718,
+      "tradeValue1000USD": 159330.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 25.61
+    },
+    {
+      "id": "maize:840:214",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "214",
+        "iso3": "DOM",
+        "name": "Dominican Republic",
+        "lat": 19,
+        "lon": -70.66667
+      },
+      "volumeTonnes": 473274.4,
+      "volumeKt": 473.274,
+      "tradeValue1000USD": 156540.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 1.93
+    },
+    {
+      "id": "maize:104:704",
+      "from": {
+        "m49": "104",
+        "iso3": "MMR",
+        "name": "Myanmar",
+        "lat": 21.92,
+        "lon": 95.96
+      },
+      "to": {
+        "m49": "704",
+        "iso3": "VNM",
+        "name": "Viet Nam",
+        "lat": 16.16667,
+        "lon": 107.83333
+      },
+      "volumeTonnes": 468732.5,
+      "volumeKt": 468.733,
+      "tradeValue1000USD": 131861.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 0.63
+    },
+    {
+      "id": "maize:498:642",
+      "from": {
+        "m49": "498",
+        "iso3": "MDA",
+        "name": "Republic of Moldova",
+        "lat": 47,
+        "lon": 29
+      },
+      "to": {
+        "m49": "642",
+        "iso3": "ROU",
+        "name": "Romania",
+        "lat": 46,
+        "lon": 25
+      },
+      "volumeTonnes": 464028.81,
+      "volumeKt": 464.029,
+      "tradeValue1000USD": 133589.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 54.49
+    },
+    {
+      "id": "maize:804:434",
+      "from": {
+        "m49": "804",
+        "iso3": "UKR",
+        "name": "Ukraine",
+        "lat": 49,
+        "lon": 32
+      },
+      "to": {
+        "m49": "434",
+        "iso3": "LBY",
+        "name": "Libya",
+        "lat": 25,
+        "lon": 17
+      },
+      "volumeTonnes": 455998.87,
+      "volumeKt": 455.999,
+      "tradeValue1000USD": 102715.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "maize:642:818",
+      "from": {
+        "m49": "642",
+        "iso3": "ROU",
+        "name": "Romania",
+        "lat": 46,
+        "lon": 25
+      },
+      "to": {
+        "m49": "818",
+        "iso3": "EGY",
+        "name": "Egypt",
+        "lat": 27,
+        "lon": 30
+      },
+      "volumeTonnes": 435426.38,
+      "volumeKt": 435.426,
+      "tradeValue1000USD": 125857.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 35.79
+    },
+    {
+      "id": "maize:356:524",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "524",
+        "iso3": "NPL",
+        "name": "Nepal",
+        "lat": 28,
+        "lon": 84
+      },
+      "volumeTonnes": 418364.73,
+      "volumeKt": 418.365,
+      "tradeValue1000USD": 127373.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 0.62
+    },
+    {
+      "id": "maize:643:364",
+      "from": {
+        "m49": "643",
+        "iso3": "RUS",
+        "name": "Russian Federation",
+        "lat": 60,
+        "lon": 100
+      },
+      "to": {
+        "m49": "364",
+        "iso3": "IRN",
+        "name": "Iran (Islamic Republic of)",
+        "lat": 32,
+        "lon": 53
+      },
+      "volumeTonnes": 409847.0,
+      "volumeKt": 409.847,
+      "tradeValue1000USD": 141684.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "maize:688:642",
+      "from": {
+        "m49": "688",
+        "iso3": "SRB",
+        "name": "Serbia",
+        "lat": 44.1305,
+        "lon": 16.42842
+      },
+      "to": {
+        "m49": "642",
+        "iso3": "ROU",
+        "name": "Romania",
+        "lat": 46,
+        "lon": 25
+      },
+      "volumeTonnes": 409244.61,
+      "volumeKt": 409.245,
+      "tradeValue1000USD": 129951.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 96.33
+    },
+    {
+      "id": "maize:840:558",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "558",
+        "iso3": "NIC",
+        "name": "Nicaragua",
+        "lat": 13,
+        "lon": -85
+      },
+      "volumeTonnes": 406185.6,
+      "volumeKt": 406.186,
+      "tradeValue1000USD": 130011.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 5.81
+    },
+    {
+      "id": "maize:840:862",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "862",
+        "iso3": "VEN",
+        "name": "Venezuela (Bolivarian Republic of)",
+        "lat": 8,
+        "lon": -66
+      },
+      "volumeTonnes": 405243.34,
+      "volumeKt": 405.243,
+      "tradeValue1000USD": 134617.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 12.48
+    },
+    {
+      "id": "maize:250:380",
+      "from": {
+        "m49": "250",
+        "iso3": "FRA",
+        "name": "France",
+        "lat": 46,
+        "lon": 2
+      },
+      "to": {
+        "m49": "380",
+        "iso3": "ITA",
+        "name": "Italy",
+        "lat": 42.83333,
+        "lon": 12.83333
+      },
+      "volumeTonnes": 402318.16,
+      "volumeKt": 402.318,
+      "tradeValue1000USD": 150711.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 8.38
+    },
+    {
+      "id": "maize:792:368",
+      "from": {
+        "m49": "792",
+        "iso3": "TUR",
+        "name": "Türkiye",
+        "lat": 39,
+        "lon": 35
+      },
+      "to": {
+        "m49": "368",
+        "iso3": "IRQ",
+        "name": "Iraq",
+        "lat": 33,
+        "lon": 44
+      },
+      "volumeTonnes": 400743.97,
+      "volumeKt": 400.744,
+      "tradeValue1000USD": 147117.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "maize:586:704",
+      "from": {
+        "m49": "586",
+        "iso3": "PAK",
+        "name": "Pakistan",
+        "lat": 30,
+        "lon": 70
+      },
+      "to": {
+        "m49": "704",
+        "iso3": "VNM",
+        "name": "Viet Nam",
+        "lat": 16.16667,
+        "lon": 107.83333
+      },
+      "volumeTonnes": 386001.0,
+      "volumeKt": 386.001,
+      "tradeValue1000USD": 127836.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 0.34
+    },
+    {
+      "id": "maize:076:050",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "050",
+        "iso3": "BGD",
+        "name": "Bangladesh",
+        "lat": 24,
+        "lon": 90
+      },
+      "volumeTonnes": 385314.85,
+      "volumeKt": 385.315,
+      "tradeValue1000USD": 108443.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "maize:040:380",
+      "from": {
+        "m49": "040",
+        "iso3": "AUT",
+        "name": "Austria",
+        "lat": 47.33333,
+        "lon": 13.33333
+      },
+      "to": {
+        "m49": "380",
+        "iso3": "ITA",
+        "name": "Italy",
+        "lat": 42.83333,
+        "lon": 12.83333
+      },
+      "volumeTonnes": 385263.27,
+      "volumeKt": 385.263,
+      "tradeValue1000USD": 126283.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 14.62
+    },
+    {
+      "id": "maize:804:703",
+      "from": {
+        "m49": "804",
+        "iso3": "UKR",
+        "name": "Ukraine",
+        "lat": 49,
+        "lon": 32
+      },
+      "to": {
+        "m49": "703",
+        "iso3": "SVK",
+        "name": "Slovakia",
+        "lat": 48.66667,
+        "lon": 19.5
+      },
+      "volumeTonnes": 376876.71,
+      "volumeKt": 376.877,
+      "tradeValue1000USD": 88544.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 6.85
+    },
+    {
+      "id": "maize:498:792",
+      "from": {
+        "m49": "498",
+        "iso3": "MDA",
+        "name": "Republic of Moldova",
+        "lat": 47,
+        "lon": 29
+      },
+      "to": {
+        "m49": "792",
+        "iso3": "TUR",
+        "name": "Türkiye",
+        "lat": 39,
+        "lon": 35
+      },
+      "volumeTonnes": 371171.68,
+      "volumeKt": 371.172,
+      "tradeValue1000USD": 97657.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 26.13
+    },
+    {
+      "id": "maize:756:364",
+      "from": {
+        "m49": "756",
+        "iso3": "CHE",
+        "name": "Switzerland",
+        "lat": 47,
+        "lon": 8
+      },
+      "to": {
+        "m49": "364",
+        "iso3": "IRN",
+        "name": "Iran (Islamic Republic of)",
+        "lat": 32,
+        "lon": 53
+      },
+      "volumeTonnes": 367232.0,
+      "volumeKt": 367.232,
+      "tradeValue1000USD": 140473.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "maize:642:364",
+      "from": {
+        "m49": "642",
+        "iso3": "ROU",
+        "name": "Romania",
+        "lat": 46,
+        "lon": 25
+      },
+      "to": {
+        "m49": "364",
+        "iso3": "IRN",
+        "name": "Iran (Islamic Republic of)",
+        "lat": 32,
+        "lon": 53
+      },
+      "volumeTonnes": 366130.5,
+      "volumeKt": 366.13,
+      "tradeValue1000USD": 102454.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "maize:032:686",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "686",
+        "iso3": "SEN",
+        "name": "Senegal",
+        "lat": 14,
+        "lon": -14
+      },
+      "volumeTonnes": 363975.0,
+      "volumeKt": 363.975,
+      "tradeValue1000USD": 90186.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 3.13
+    },
+    {
+      "id": "maize:348:040",
+      "from": {
+        "m49": "348",
+        "iso3": "HUN",
+        "name": "Hungary",
+        "lat": 47,
+        "lon": 20
+      },
+      "to": {
+        "m49": "040",
+        "iso3": "AUT",
+        "name": "Austria",
+        "lat": 47.33333,
+        "lon": 13.33333
+      },
+      "volumeTonnes": 358215.93,
+      "volumeKt": 358.216,
+      "tradeValue1000USD": 124839.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 7.55
+    },
+    {
+      "id": "maize:840:591",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "591",
+        "iso3": "PAN",
+        "name": "Panama",
+        "lat": 9,
+        "lon": -80
+      },
+      "volumeTonnes": 355836.68,
+      "volumeKt": 355.837,
+      "tradeValue1000USD": 110938.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 4.76
+    },
+    {
+      "id": "maize:834:404",
+      "from": {
+        "m49": "834",
+        "iso3": "TZA",
+        "name": "United Republic of Tanzania",
+        "lat": -6,
+        "lon": 35
+      },
+      "to": {
+        "m49": "404",
+        "iso3": "KEN",
+        "name": "Kenya",
+        "lat": 1,
+        "lon": 38
+      },
+      "volumeTonnes": 347706.88,
+      "volumeKt": 347.707,
+      "tradeValue1000USD": 53500.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 47.23
+    },
+    {
+      "id": "maize:368:364",
+      "from": {
+        "m49": "368",
+        "iso3": "IRQ",
+        "name": "Iraq",
+        "lat": 33,
+        "lon": 44
+      },
+      "to": {
+        "m49": "364",
+        "iso3": "IRN",
+        "name": "Iran (Islamic Republic of)",
+        "lat": 32,
+        "lon": 53
+      },
+      "volumeTonnes": 341762.0,
+      "volumeKt": 341.762,
+      "tradeValue1000USD": 119347.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "maize:076:188",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "188",
+        "iso3": "CRI",
+        "name": "Costa Rica",
+        "lat": 10,
+        "lon": -84
+      },
+      "volumeTonnes": 339050.93,
+      "volumeKt": 339.051,
+      "tradeValue1000USD": 91261.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 17.07
+    },
+    {
+      "id": "maize:600:410",
+      "from": {
+        "m49": "600",
+        "iso3": "PRY",
+        "name": "Paraguay",
+        "lat": -23,
+        "lon": -58
+      },
+      "to": {
+        "m49": "410",
+        "iso3": "KOR",
+        "name": "Republic of Korea",
+        "lat": 37,
+        "lon": 127.5
+      },
+      "volumeTonnes": 334507.0,
+      "volumeKt": 334.507,
+      "tradeValue1000USD": 84305.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 41.78
+    },
+    {
+      "id": "maize:076:862",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "862",
+        "iso3": "VEN",
+        "name": "Venezuela (Bolivarian Republic of)",
+        "lat": 8,
+        "lon": -66
+      },
+      "volumeTonnes": 334171.67,
+      "volumeKt": 334.172,
+      "tradeValue1000USD": 101537.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 24.46
+    },
+    {
+      "id": "maize:124:724",
+      "from": {
+        "m49": "124",
+        "iso3": "CAN",
+        "name": "Canada",
+        "lat": 60,
+        "lon": -95
+      },
+      "to": {
+        "m49": "724",
+        "iso3": "ESP",
+        "name": "Spain",
+        "lat": 40,
+        "lon": -4
+      },
+      "volumeTonnes": 331649.0,
+      "volumeKt": 331.649,
+      "tradeValue1000USD": 107758.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 0.77
+    },
+    {
+      "id": "maize:032:784",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "784",
+        "iso3": "ARE",
+        "name": "United Arab Emirates",
+        "lat": 24,
+        "lon": 54
+      },
+      "volumeTonnes": 315562.0,
+      "volumeKt": 315.562,
+      "tradeValue1000USD": 87453.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 4.64
+    },
+    {
+      "id": "maize:804:620",
+      "from": {
+        "m49": "804",
+        "iso3": "UKR",
+        "name": "Ukraine",
+        "lat": 49,
+        "lon": 32
+      },
+      "to": {
+        "m49": "620",
+        "iso3": "PRT",
+        "name": "Portugal",
+        "lat": 39.5,
+        "lon": -8
+      },
+      "volumeTonnes": 307159.75,
+      "volumeKt": 307.16,
+      "tradeValue1000USD": 72777.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 10.57
+    },
+    {
+      "id": "maize:688:380",
+      "from": {
+        "m49": "688",
+        "iso3": "SRB",
+        "name": "Serbia",
+        "lat": 44.1305,
+        "lon": 16.42842
+      },
+      "to": {
+        "m49": "380",
+        "iso3": "ITA",
+        "name": "Italy",
+        "lat": 42.83333,
+        "lon": 12.83333
+      },
+      "volumeTonnes": 303640.56,
+      "volumeKt": 303.641,
+      "tradeValue1000USD": 91214.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 96.47
+    },
+    {
+      "id": "maize:100:300",
+      "from": {
+        "m49": "100",
+        "iso3": "BGR",
+        "name": "Bulgaria",
+        "lat": 43,
+        "lon": 25
+      },
+      "to": {
+        "m49": "300",
+        "iso3": "GRC",
+        "name": "Greece",
+        "lat": 39,
+        "lon": 22
+      },
+      "volumeTonnes": 293798.75,
+      "volumeKt": 293.799,
+      "tradeValue1000USD": 105512.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 17.26
+    },
+    {
+      "id": "maize:032:192",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "192",
+        "iso3": "CUB",
+        "name": "Cuba",
+        "lat": 21.5,
+        "lon": -80
+      },
+      "volumeTonnes": 291122.0,
+      "volumeKt": 291.122,
+      "tradeValue1000USD": 79565.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 2.57
+    },
+    {
+      "id": "maize:804:788",
+      "from": {
+        "m49": "804",
+        "iso3": "UKR",
+        "name": "Ukraine",
+        "lat": 49,
+        "lon": 32
+      },
+      "to": {
+        "m49": "788",
+        "iso3": "TUN",
+        "name": "Tunisia",
+        "lat": 34,
+        "lon": 9
+      },
+      "volumeTonnes": 289143.3,
+      "volumeKt": 289.143,
+      "tradeValue1000USD": 61600.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 9.07
+    },
+    {
+      "id": "maize:642:620",
+      "from": {
+        "m49": "642",
+        "iso3": "ROU",
+        "name": "Romania",
+        "lat": 46,
+        "lon": 25
+      },
+      "to": {
+        "m49": "620",
+        "iso3": "PRT",
+        "name": "Portugal",
+        "lat": 39.5,
+        "lon": -8
+      },
+      "volumeTonnes": 289050.39,
+      "volumeKt": 289.05,
+      "tradeValue1000USD": 87390.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 11.35
+    }
+  ]
+}

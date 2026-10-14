@@ -1,0 +1,1684 @@
+{
+  "year": 2022,
+  "crop": "soybeans",
+  "itemCode": 236,
+  "itemName": "Soya beans",
+  "color": "#B57CFF",
+  "simulated": false,
+  "source": "FAOSTAT Detailed Trade Matrix",
+  "sourceUrl": "https://bulks-faostat.fao.org/production/Trade_DetailedTradeMatrix_E_All_Data_(Normalized).zip",
+  "metric": "Export Quantity (tonnes), import mirror only if exporter record missing",
+  "selection": {
+    "minimumTonnes": 20000,
+    "targetCoveragePct": 95,
+    "maxRoutes": 120,
+    "actualCoveragePct": 95.033,
+    "selectedRoutes": 69,
+    "allValidGeocodedRoutes": 1806,
+    "selectedVolumeTonnes": 150387377.01,
+    "allValidGeocodedVolumeTonnes": 158248327.84
+  },
+  "stats": {
+    "reportedExports": 1221,
+    "mirrorImports": 585,
+    "pairsWithMirrorDisagreementAbove20Pct": 546
+  },
+  "routes": [
+    {
+      "id": "soybeans:076:156",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "156",
+        "iso3": "CHN",
+        "name": "China, mainland",
+        "lat": 35,
+        "lon": 105
+      },
+      "volumeTonnes": 53740401.17,
+      "volumeKt": 53740.401,
+      "tradeValue1000USD": 31848678.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "I",
+      "mirrorDisagreementPct": 1.2
+    },
+    {
+      "id": "soybeans:840:156",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "156",
+        "iso3": "CHN",
+        "name": "China, mainland",
+        "lat": 35,
+        "lon": 105
+      },
+      "volumeTonnes": 30395674.27,
+      "volumeKt": 30395.674,
+      "tradeValue1000USD": 17871585.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 2.84
+    },
+    {
+      "id": "soybeans:840:484",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "484",
+        "iso3": "MEX",
+        "name": "Mexico",
+        "lat": 23,
+        "lon": -102
+      },
+      "volumeTonnes": 5866609.44,
+      "volumeKt": 5866.609,
+      "tradeValue1000USD": 3639682.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 37.19
+    },
+    {
+      "id": "soybeans:032:156",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "156",
+        "iso3": "CHN",
+        "name": "China, mainland",
+        "lat": 35,
+        "lon": 105
+      },
+      "volumeTonnes": 4924690.0,
+      "volumeKt": 4924.69,
+      "tradeValue1000USD": 2891532.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 25.89
+    },
+    {
+      "id": "soybeans:076:724",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "724",
+        "iso3": "ESP",
+        "name": "Spain",
+        "lat": 40,
+        "lon": -4
+      },
+      "volumeTonnes": 3307393.43,
+      "volumeKt": 3307.393,
+      "tradeValue1000USD": 1939555.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 35.91
+    },
+    {
+      "id": "soybeans:840:818",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "818",
+        "iso3": "EGY",
+        "name": "Egypt",
+        "lat": 27,
+        "lon": 30
+      },
+      "volumeTonnes": 3188555.0,
+      "volumeKt": 3188.555,
+      "tradeValue1000USD": 2008106.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 16.62
+    },
+    {
+      "id": "soybeans:076:764",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "764",
+        "iso3": "THA",
+        "name": "Thailand",
+        "lat": 15,
+        "lon": 100
+      },
+      "volumeTonnes": 2825148.78,
+      "volumeKt": 2825.149,
+      "tradeValue1000USD": 1679249.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 9.18
+    },
+    {
+      "id": "soybeans:840:392",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "392",
+        "iso3": "JPN",
+        "name": "Japan",
+        "lat": 36,
+        "lon": 138
+      },
+      "volumeTonnes": 2808119.6,
+      "volumeKt": 2808.12,
+      "tradeValue1000USD": 1810369.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 8.26
+    },
+    {
+      "id": "soybeans:840:276",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "276",
+        "iso3": "DEU",
+        "name": "Germany",
+        "lat": 51,
+        "lon": 9
+      },
+      "volumeTonnes": 2367090.1,
+      "volumeKt": 2367.09,
+      "tradeValue1000USD": 1454339.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 36.08
+    },
+    {
+      "id": "soybeans:076:364",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "364",
+        "iso3": "IRN",
+        "name": "Iran (Islamic Republic of)",
+        "lat": 32,
+        "lon": 53
+      },
+      "volumeTonnes": 2270070.99,
+      "volumeKt": 2270.071,
+      "tradeValue1000USD": 1358494.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "soybeans:840:360",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "360",
+        "iso3": "IDN",
+        "name": "Indonesia",
+        "lat": -5,
+        "lon": 120
+      },
+      "volumeTonnes": 2031618.5,
+      "volumeKt": 2031.619,
+      "tradeValue1000USD": 1262399.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 5.1
+    },
+    {
+      "id": "soybeans:076:528",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "528",
+        "iso3": "NLD",
+        "name": "Netherlands (Kingdom of the)",
+        "lat": 52.5,
+        "lon": 5.75
+      },
+      "volumeTonnes": 1962513.62,
+      "volumeKt": 1962.514,
+      "tradeValue1000USD": 1129241.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 8.24
+    },
+    {
+      "id": "soybeans:076:792",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "792",
+        "iso3": "TUR",
+        "name": "Türkiye",
+        "lat": 39,
+        "lon": 35
+      },
+      "volumeTonnes": 1865007.16,
+      "volumeKt": 1865.007,
+      "tradeValue1000USD": 1089562.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 7.48
+    },
+    {
+      "id": "soybeans:840:158",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "158",
+        "iso3": "TWN",
+        "name": "China, Taiwan Province of",
+        "lat": 23.5,
+        "lon": 121
+      },
+      "volumeTonnes": 1840937.36,
+      "volumeKt": 1840.937,
+      "tradeValue1000USD": 1122043.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 3.8
+    },
+    {
+      "id": "soybeans:600:032",
+      "from": {
+        "m49": "600",
+        "iso3": "PRY",
+        "name": "Paraguay",
+        "lat": -23,
+        "lon": -58
+      },
+      "to": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "volumeTonnes": 1764200.0,
+      "volumeKt": 1764.2,
+      "tradeValue1000USD": 978835.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 1.39
+    },
+    {
+      "id": "soybeans:076:643",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "643",
+        "iso3": "RUS",
+        "name": "Russian Federation",
+        "lat": 60,
+        "lon": 100
+      },
+      "volumeTonnes": 1579046.1,
+      "volumeKt": 1579.046,
+      "tradeValue1000USD": 889126.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "soybeans:076:586",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "586",
+        "iso3": "PAK",
+        "name": "Pakistan",
+        "lat": 30,
+        "lon": 70
+      },
+      "volumeTonnes": 1207781.29,
+      "volumeKt": 1207.781,
+      "tradeValue1000USD": 707293.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 11.88
+    },
+    {
+      "id": "soybeans:784:364",
+      "from": {
+        "m49": "784",
+        "iso3": "ARE",
+        "name": "United Arab Emirates",
+        "lat": 24,
+        "lon": 54
+      },
+      "to": {
+        "m49": "364",
+        "iso3": "IRN",
+        "name": "Iran (Islamic Republic of)",
+        "lat": 32,
+        "lon": 53
+      },
+      "volumeTonnes": 1182265.8,
+      "volumeKt": 1182.266,
+      "tradeValue1000USD": 924725.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "soybeans:124:156",
+      "from": {
+        "m49": "124",
+        "iso3": "CAN",
+        "name": "Canada",
+        "lat": 60,
+        "lon": -95
+      },
+      "to": {
+        "m49": "156",
+        "iso3": "CHN",
+        "name": "China, mainland",
+        "lat": 35,
+        "lon": 105
+      },
+      "volumeTonnes": 1116622.54,
+      "volumeKt": 1116.623,
+      "tradeValue1000USD": 679931.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 35.6
+    },
+    {
+      "id": "soybeans:076:050",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "050",
+        "iso3": "BGD",
+        "name": "Bangladesh",
+        "lat": 24,
+        "lon": 90
+      },
+      "volumeTonnes": 1090885.24,
+      "volumeKt": 1090.885,
+      "tradeValue1000USD": 640732.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "soybeans:076:704",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "704",
+        "iso3": "VNM",
+        "name": "Viet Nam",
+        "lat": 16.16667,
+        "lon": 107.83333
+      },
+      "volumeTonnes": 1012160.14,
+      "volumeKt": 1012.16,
+      "tradeValue1000USD": 604035.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 4.69
+    },
+    {
+      "id": "soybeans:076:012",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "012",
+        "iso3": "DZA",
+        "name": "Algeria",
+        "lat": 28,
+        "lon": 3
+      },
+      "volumeTonnes": 921018.21,
+      "volumeKt": 921.018,
+      "tradeValue1000USD": 525791.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "soybeans:840:380",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "380",
+        "iso3": "ITA",
+        "name": "Italy",
+        "lat": 42.83333,
+        "lon": 12.83333
+      },
+      "volumeTonnes": 912010.01,
+      "volumeKt": 912.01,
+      "tradeValue1000USD": 515054.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 63.85
+    },
+    {
+      "id": "soybeans:076:158",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "158",
+        "iso3": "TWN",
+        "name": "China, Taiwan Province of",
+        "lat": 23.5,
+        "lon": 121
+      },
+      "volumeTonnes": 893554.35,
+      "volumeKt": 893.554,
+      "tradeValue1000USD": 537277.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 0.17
+    },
+    {
+      "id": "soybeans:528:276",
+      "from": {
+        "m49": "528",
+        "iso3": "NLD",
+        "name": "Netherlands (Kingdom of the)",
+        "lat": 52.5,
+        "lon": 5.75
+      },
+      "to": {
+        "m49": "276",
+        "iso3": "DEU",
+        "name": "Germany",
+        "lat": 51,
+        "lon": 9
+      },
+      "volumeTonnes": 845433.16,
+      "volumeKt": 845.433,
+      "tradeValue1000USD": 552387.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 11.64
+    },
+    {
+      "id": "soybeans:804:792",
+      "from": {
+        "m49": "804",
+        "iso3": "UKR",
+        "name": "Ukraine",
+        "lat": 49,
+        "lon": 32
+      },
+      "to": {
+        "m49": "792",
+        "iso3": "TUR",
+        "name": "Türkiye",
+        "lat": 39,
+        "lon": 35
+      },
+      "volumeTonnes": 758506.89,
+      "volumeKt": 758.507,
+      "tradeValue1000USD": 276034.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 7.73
+    },
+    {
+      "id": "soybeans:840:410",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "410",
+        "iso3": "KOR",
+        "name": "Republic of Korea",
+        "lat": 37,
+        "lon": 127.5
+      },
+      "volumeTonnes": 752980.31,
+      "volumeKt": 752.98,
+      "tradeValue1000USD": 462369.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 15.61
+    },
+    {
+      "id": "soybeans:076:484",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "484",
+        "iso3": "MEX",
+        "name": "Mexico",
+        "lat": 23,
+        "lon": -102
+      },
+      "volumeTonnes": 745316.04,
+      "volumeKt": 745.316,
+      "tradeValue1000USD": 438494.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 81.22
+    },
+    {
+      "id": "soybeans:643:156",
+      "from": {
+        "m49": "643",
+        "iso3": "RUS",
+        "name": "Russian Federation",
+        "lat": 60,
+        "lon": 100
+      },
+      "to": {
+        "m49": "156",
+        "iso3": "CHN",
+        "name": "China, mainland",
+        "lat": 35,
+        "lon": 105
+      },
+      "volumeTonnes": 693752.8,
+      "volumeKt": 693.753,
+      "tradeValue1000USD": 383596.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "soybeans:840:704",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "704",
+        "iso3": "VNM",
+        "name": "Viet Nam",
+        "lat": 16.16667,
+        "lon": 107.83333
+      },
+      "volumeTonnes": 673904.51,
+      "volumeKt": 673.905,
+      "tradeValue1000USD": 422628.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 11.74
+    },
+    {
+      "id": "soybeans:840:528",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "528",
+        "iso3": "NLD",
+        "name": "Netherlands (Kingdom of the)",
+        "lat": 52.5,
+        "lon": 5.75
+      },
+      "volumeTonnes": 624692.0,
+      "volumeKt": 624.692,
+      "tradeValue1000USD": 372979.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 64.61
+    },
+    {
+      "id": "soybeans:076:392",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "392",
+        "iso3": "JPN",
+        "name": "Japan",
+        "lat": 36,
+        "lon": 138
+      },
+      "volumeTonnes": 592452.73,
+      "volumeKt": 592.453,
+      "tradeValue1000USD": 358270.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "I",
+      "mirrorDisagreementPct": 0.69
+    },
+    {
+      "id": "soybeans:840:050",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "050",
+        "iso3": "BGD",
+        "name": "Bangladesh",
+        "lat": 24,
+        "lon": 90
+      },
+      "volumeTonnes": 582600.0,
+      "volumeKt": 582.6,
+      "tradeValue1000USD": 350567.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "soybeans:076:620",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "620",
+        "iso3": "PRT",
+        "name": "Portugal",
+        "lat": 39.5,
+        "lon": -8
+      },
+      "volumeTonnes": 568479.1,
+      "volumeKt": 568.479,
+      "tradeValue1000USD": 345685.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 11.19
+    },
+    {
+      "id": "soybeans:076:380",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "380",
+        "iso3": "ITA",
+        "name": "Italy",
+        "lat": 42.83333,
+        "lon": 12.83333
+      },
+      "volumeTonnes": 558578.28,
+      "volumeKt": 558.578,
+      "tradeValue1000USD": 327561.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 52.08
+    },
+    {
+      "id": "soybeans:076:276",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "276",
+        "iso3": "DEU",
+        "name": "Germany",
+        "lat": 51,
+        "lon": 9
+      },
+      "volumeTonnes": 548861.02,
+      "volumeKt": 548.861,
+      "tradeValue1000USD": 336213.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "soybeans:076:410",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "410",
+        "iso3": "KOR",
+        "name": "Republic of Korea",
+        "lat": 37,
+        "lon": 127.5
+      },
+      "volumeTonnes": 534553.75,
+      "volumeKt": 534.554,
+      "tradeValue1000USD": 305141.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 0.77
+    },
+    {
+      "id": "soybeans:840:724",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "724",
+        "iso3": "ESP",
+        "name": "Spain",
+        "lat": 40,
+        "lon": -4
+      },
+      "volumeTonnes": 520315.63,
+      "volumeKt": 520.316,
+      "tradeValue1000USD": 311887.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 42.6
+    },
+    {
+      "id": "soybeans:858:156",
+      "from": {
+        "m49": "858",
+        "iso3": "URY",
+        "name": "Uruguay",
+        "lat": -33,
+        "lon": -56
+      },
+      "to": {
+        "m49": "156",
+        "iso3": "CHN",
+        "name": "China, mainland",
+        "lat": 35,
+        "lon": 105
+      },
+      "volumeTonnes": 519457.0,
+      "volumeKt": 519.457,
+      "tradeValue1000USD": 324397.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 70.95
+    },
+    {
+      "id": "soybeans:840:170",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "170",
+        "iso3": "COL",
+        "name": "Colombia",
+        "lat": 4,
+        "lon": -72
+      },
+      "volumeTonnes": 517330.67,
+      "volumeKt": 517.331,
+      "tradeValue1000USD": 326879.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 7.7
+    },
+    {
+      "id": "soybeans:076:682",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "682",
+        "iso3": "SAU",
+        "name": "Saudi Arabia",
+        "lat": 25,
+        "lon": 45
+      },
+      "volumeTonnes": 480615.98,
+      "volumeKt": 480.616,
+      "tradeValue1000USD": 295501.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 0.0
+    },
+    {
+      "id": "soybeans:124:364",
+      "from": {
+        "m49": "124",
+        "iso3": "CAN",
+        "name": "Canada",
+        "lat": 60,
+        "lon": -95
+      },
+      "to": {
+        "m49": "364",
+        "iso3": "IRN",
+        "name": "Iran (Islamic Republic of)",
+        "lat": 32,
+        "lon": 53
+      },
+      "volumeTonnes": 476704.2,
+      "volumeKt": 476.704,
+      "tradeValue1000USD": 268759.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "soybeans:068:032",
+      "from": {
+        "m49": "068",
+        "iso3": "BOL",
+        "name": "Bolivia (Plurinational State of)",
+        "lat": -17,
+        "lon": -65
+      },
+      "to": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "volumeTonnes": 450057.11,
+      "volumeKt": 450.057,
+      "tradeValue1000USD": 247570.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 9.1
+    },
+    {
+      "id": "soybeans:840:458",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "458",
+        "iso3": "MYS",
+        "name": "Malaysia",
+        "lat": 2.5,
+        "lon": 112.5
+      },
+      "volumeTonnes": 446326.17,
+      "volumeKt": 446.326,
+      "tradeValue1000USD": 275577.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 0.56
+    },
+    {
+      "id": "soybeans:840:124",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "124",
+        "iso3": "CAN",
+        "name": "Canada",
+        "lat": 60,
+        "lon": -95
+      },
+      "volumeTonnes": 443466.33,
+      "volumeKt": 443.466,
+      "tradeValue1000USD": 246872.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 2.52
+    },
+    {
+      "id": "soybeans:124:380",
+      "from": {
+        "m49": "124",
+        "iso3": "CAN",
+        "name": "Canada",
+        "lat": 60,
+        "lon": -95
+      },
+      "to": {
+        "m49": "380",
+        "iso3": "ITA",
+        "name": "Italy",
+        "lat": 42.83333,
+        "lon": 12.83333
+      },
+      "volumeTonnes": 434006.52,
+      "volumeKt": 434.007,
+      "tradeValue1000USD": 250071.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 9.06
+    },
+    {
+      "id": "soybeans:756:364",
+      "from": {
+        "m49": "756",
+        "iso3": "CHE",
+        "name": "Switzerland",
+        "lat": 47,
+        "lon": 8
+      },
+      "to": {
+        "m49": "364",
+        "iso3": "IRN",
+        "name": "Iran (Islamic Republic of)",
+        "lat": 32,
+        "lon": 53
+      },
+      "volumeTonnes": 421147.0,
+      "volumeKt": 421.147,
+      "tradeValue1000USD": 296007.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "soybeans:840:764",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "764",
+        "iso3": "THA",
+        "name": "Thailand",
+        "lat": 15,
+        "lon": 100
+      },
+      "volumeTonnes": 408205.38,
+      "volumeKt": 408.205,
+      "tradeValue1000USD": 253873.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 5.4
+    },
+    {
+      "id": "soybeans:858:032",
+      "from": {
+        "m49": "858",
+        "iso3": "URY",
+        "name": "Uruguay",
+        "lat": -33,
+        "lon": -56
+      },
+      "to": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "volumeTonnes": 401959.95,
+      "volumeKt": 401.96,
+      "tradeValue1000USD": 251458.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 48.12
+    },
+    {
+      "id": "soybeans:840:586",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "586",
+        "iso3": "PAK",
+        "name": "Pakistan",
+        "lat": 30,
+        "lon": 70
+      },
+      "volumeTonnes": 401190.0,
+      "volumeKt": 401.19,
+      "tradeValue1000USD": 238209.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 27.88
+    },
+    {
+      "id": "soybeans:600:076",
+      "from": {
+        "m49": "600",
+        "iso3": "PRY",
+        "name": "Paraguay",
+        "lat": -23,
+        "lon": -58
+      },
+      "to": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "volumeTonnes": 393053.0,
+      "volumeKt": 393.053,
+      "tradeValue1000USD": 181153.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 1.97
+    },
+    {
+      "id": "soybeans:840:012",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "012",
+        "iso3": "DZA",
+        "name": "Algeria",
+        "lat": 28,
+        "lon": 3
+      },
+      "volumeTonnes": 379806.0,
+      "volumeKt": 379.806,
+      "tradeValue1000USD": 238311.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "soybeans:124:392",
+      "from": {
+        "m49": "124",
+        "iso3": "CAN",
+        "name": "Canada",
+        "lat": 60,
+        "lon": -95
+      },
+      "to": {
+        "m49": "392",
+        "iso3": "JPN",
+        "name": "Japan",
+        "lat": 36,
+        "lon": 138
+      },
+      "volumeTonnes": 348471.91,
+      "volumeKt": 348.472,
+      "tradeValue1000USD": 270607.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 11.39
+    },
+    {
+      "id": "soybeans:076:032",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "volumeTonnes": 289472.76,
+      "volumeKt": 289.473,
+      "tradeValue1000USD": 180354.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 3.45
+    },
+    {
+      "id": "soybeans:076:056",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "056",
+        "iso3": "BEL",
+        "name": "Belgium",
+        "lat": 50.83333,
+        "lon": 4
+      },
+      "volumeTonnes": 281226.53,
+      "volumeKt": 281.227,
+      "tradeValue1000USD": 167218.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "I",
+      "mirrorDisagreementPct": 3.52
+    },
+    {
+      "id": "soybeans:124:012",
+      "from": {
+        "m49": "124",
+        "iso3": "CAN",
+        "name": "Canada",
+        "lat": 60,
+        "lon": -95
+      },
+      "to": {
+        "m49": "012",
+        "iso3": "DZA",
+        "name": "Algeria",
+        "lat": 28,
+        "lon": 3
+      },
+      "volumeTonnes": 278261.3,
+      "volumeKt": 278.261,
+      "tradeValue1000USD": 159254.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "soybeans:840:188",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "188",
+        "iso3": "CRI",
+        "name": "Costa Rica",
+        "lat": 10,
+        "lon": -84
+      },
+      "volumeTonnes": 277165.39,
+      "volumeKt": 277.165,
+      "tradeValue1000USD": 177403.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 8.33
+    },
+    {
+      "id": "soybeans:124:360",
+      "from": {
+        "m49": "124",
+        "iso3": "CAN",
+        "name": "Canada",
+        "lat": 60,
+        "lon": -95
+      },
+      "to": {
+        "m49": "360",
+        "iso3": "IDN",
+        "name": "Indonesia",
+        "lat": -5,
+        "lon": 120
+      },
+      "volumeTonnes": 274980.71,
+      "volumeKt": 274.981,
+      "tradeValue1000USD": 173289.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 4.52
+    },
+    {
+      "id": "soybeans:076:376",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "376",
+        "iso3": "ISR",
+        "name": "Israel",
+        "lat": 31.5,
+        "lon": 34.75
+      },
+      "volumeTonnes": 233937.31,
+      "volumeKt": 233.937,
+      "tradeValue1000USD": 139419.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 14.96
+    },
+    {
+      "id": "soybeans:792:364",
+      "from": {
+        "m49": "792",
+        "iso3": "TUR",
+        "name": "Türkiye",
+        "lat": 39,
+        "lon": 35
+      },
+      "to": {
+        "m49": "364",
+        "iso3": "IRN",
+        "name": "Iran (Islamic Republic of)",
+        "lat": 32,
+        "lon": 53
+      },
+      "volumeTonnes": 233156.0,
+      "volumeKt": 233.156,
+      "tradeValue1000USD": 174726.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "soybeans:804:642",
+      "from": {
+        "m49": "804",
+        "iso3": "UKR",
+        "name": "Ukraine",
+        "lat": 49,
+        "lon": 32
+      },
+      "to": {
+        "m49": "642",
+        "iso3": "ROU",
+        "name": "Romania",
+        "lat": 46,
+        "lon": 25
+      },
+      "volumeTonnes": 233141.21,
+      "volumeKt": 233.141,
+      "tradeValue1000USD": 84437.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 35.74
+    },
+    {
+      "id": "soybeans:840:788",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "788",
+        "iso3": "TUN",
+        "name": "Tunisia",
+        "lat": 34,
+        "lon": 9
+      },
+      "volumeTonnes": 231308.0,
+      "volumeKt": 231.308,
+      "tradeValue1000USD": 138038.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 33.49
+    },
+    {
+      "id": "soybeans:076:818",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "818",
+        "iso3": "EGY",
+        "name": "Egypt",
+        "lat": 27,
+        "lon": 30
+      },
+      "volumeTonnes": 223343.18,
+      "volumeKt": 223.343,
+      "tradeValue1000USD": 119069.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 41.13
+    },
+    {
+      "id": "soybeans:840:682",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "682",
+        "iso3": "SAU",
+        "name": "Saudi Arabia",
+        "lat": 25,
+        "lon": 45
+      },
+      "volumeTonnes": 220746.22,
+      "volumeKt": 220.746,
+      "tradeValue1000USD": 136111.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 1.94
+    },
+    {
+      "id": "soybeans:076:578",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "578",
+        "iso3": "NOR",
+        "name": "Norway",
+        "lat": 62,
+        "lon": 10
+      },
+      "volumeTonnes": 215370.74,
+      "volumeKt": 215.371,
+      "tradeValue1000USD": 143901.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 11.72
+    },
+    {
+      "id": "soybeans:204:156",
+      "from": {
+        "m49": "204",
+        "iso3": "BEN",
+        "name": "Benin",
+        "lat": 9.5,
+        "lon": 2.25
+      },
+      "to": {
+        "m49": "156",
+        "iso3": "CHN",
+        "name": "China, mainland",
+        "lat": 35,
+        "lon": 105
+      },
+      "volumeTonnes": 209410.62,
+      "volumeKt": 209.411,
+      "tradeValue1000USD": 172405.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "soybeans:840:792",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "792",
+        "iso3": "TUR",
+        "name": "Türkiye",
+        "lat": 39,
+        "lon": 35
+      },
+      "volumeTonnes": 205788.0,
+      "volumeKt": 205.788,
+      "tradeValue1000USD": 120388.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 10.46
+    },
+    {
+      "id": "soybeans:840:620",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "620",
+        "iso3": "PRT",
+        "name": "Portugal",
+        "lat": 39.5,
+        "lon": -8
+      },
+      "volumeTonnes": 201237.0,
+      "volumeKt": 201.237,
+      "tradeValue1000USD": 113588.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 26.21
+    },
+    {
+      "id": "soybeans:076:788",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "788",
+        "iso3": "TUN",
+        "name": "Tunisia",
+        "lat": 34,
+        "lon": 9
+      },
+      "volumeTonnes": 183235.5,
+      "volumeKt": 183.236,
+      "tradeValue1000USD": 106936.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 18.3
+    }
+  ]
+}

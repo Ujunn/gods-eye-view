@@ -1,0 +1,2908 @@
+{
+  "year": 2022,
+  "crop": "wheat",
+  "itemCode": 15,
+  "itemName": "Wheat",
+  "color": "#F6C445",
+  "simulated": false,
+  "source": "FAOSTAT Detailed Trade Matrix",
+  "sourceUrl": "https://bulks-faostat.fao.org/production/Trade_DetailedTradeMatrix_E_All_Data_(Normalized).zip",
+  "metric": "Export Quantity (tonnes), import mirror only if exporter record missing",
+  "selection": {
+    "minimumTonnes": 20000,
+    "targetCoveragePct": 95,
+    "maxRoutes": 120,
+    "actualCoveragePct": 72.77,
+    "selectedRoutes": 120,
+    "allValidGeocodedRoutes": 2044,
+    "selectedVolumeTonnes": 140529229.32,
+    "allValidGeocodedVolumeTonnes": 193114864.09
+  },
+  "stats": {
+    "reportedExports": 1465,
+    "mirrorImports": 579,
+    "pairsWithMirrorDisagreementAbove20Pct": 540
+  },
+  "routes": [
+    {
+      "id": "wheat:643:792",
+      "from": {
+        "m49": "643",
+        "iso3": "RUS",
+        "name": "Russian Federation",
+        "lat": 60,
+        "lon": 100
+      },
+      "to": {
+        "m49": "792",
+        "iso3": "TUR",
+        "name": "Türkiye",
+        "lat": 39,
+        "lon": 35
+      },
+      "volumeTonnes": 6285727.96,
+      "volumeKt": 6285.728,
+      "tradeValue1000USD": 2391929.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:036:156",
+      "from": {
+        "m49": "036",
+        "iso3": "AUS",
+        "name": "Australia",
+        "lat": -27,
+        "lon": 133
+      },
+      "to": {
+        "m49": "156",
+        "iso3": "CHN",
+        "name": "China, mainland",
+        "lat": 35,
+        "lon": 105
+      },
+      "volumeTonnes": 6197156.74,
+      "volumeKt": 6197.157,
+      "tradeValue1000USD": 2045703.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 7.71
+    },
+    {
+      "id": "wheat:032:076",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "volumeTonnes": 4358450.0,
+      "volumeKt": 4358.45,
+      "tradeValue1000USD": 1367800.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 2.17
+    },
+    {
+      "id": "wheat:036:360",
+      "from": {
+        "m49": "036",
+        "iso3": "AUS",
+        "name": "Australia",
+        "lat": -27,
+        "lon": 133
+      },
+      "to": {
+        "m49": "360",
+        "iso3": "IDN",
+        "name": "Indonesia",
+        "lat": -5,
+        "lon": 120
+      },
+      "volumeTonnes": 4332630.53,
+      "volumeKt": 4332.631,
+      "tradeValue1000USD": 1473323.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 2.13
+    },
+    {
+      "id": "wheat:643:818",
+      "from": {
+        "m49": "643",
+        "iso3": "RUS",
+        "name": "Russian Federation",
+        "lat": 60,
+        "lon": 100
+      },
+      "to": {
+        "m49": "818",
+        "iso3": "EGY",
+        "name": "Egypt",
+        "lat": 27,
+        "lon": 30
+      },
+      "volumeTonnes": 4105215.91,
+      "volumeKt": 4105.216,
+      "tradeValue1000USD": 1948982.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "I",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:840:484",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "484",
+        "iso3": "MEX",
+        "name": "Mexico",
+        "lat": 23,
+        "lon": -102
+      },
+      "volumeTonnes": 3945076.44,
+      "volumeKt": 3945.076,
+      "tradeValue1000USD": 1589913.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 7.16
+    },
+    {
+      "id": "wheat:036:608",
+      "from": {
+        "m49": "036",
+        "iso3": "AUS",
+        "name": "Australia",
+        "lat": -27,
+        "lon": 133
+      },
+      "to": {
+        "m49": "608",
+        "iso3": "PHL",
+        "name": "Philippines",
+        "lat": 13,
+        "lon": 122
+      },
+      "volumeTonnes": 3280772.28,
+      "volumeKt": 3280.772,
+      "tradeValue1000USD": 1073622.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 8.48
+    },
+    {
+      "id": "wheat:250:504",
+      "from": {
+        "m49": "250",
+        "iso3": "FRA",
+        "name": "France",
+        "lat": 46,
+        "lon": 2
+      },
+      "to": {
+        "m49": "504",
+        "iso3": "MAR",
+        "name": "Morocco",
+        "lat": 32,
+        "lon": -5
+      },
+      "volumeTonnes": 3199516.64,
+      "volumeKt": 3199.517,
+      "tradeValue1000USD": 1195864.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 1.2
+    },
+    {
+      "id": "wheat:398:860",
+      "from": {
+        "m49": "398",
+        "iso3": "KAZ",
+        "name": "Kazakhstan",
+        "lat": 48,
+        "lon": 68
+      },
+      "to": {
+        "m49": "860",
+        "iso3": "UZB",
+        "name": "Uzbekistan",
+        "lat": 41,
+        "lon": 64
+      },
+      "volumeTonnes": 2991129.6,
+      "volumeKt": 2991.13,
+      "tradeValue1000USD": 824792.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 7.4
+    },
+    {
+      "id": "wheat:036:704",
+      "from": {
+        "m49": "036",
+        "iso3": "AUS",
+        "name": "Australia",
+        "lat": -27,
+        "lon": 133
+      },
+      "to": {
+        "m49": "704",
+        "iso3": "VNM",
+        "name": "Viet Nam",
+        "lat": 16.16667,
+        "lon": 107.83333
+      },
+      "volumeTonnes": 2897726.0,
+      "volumeKt": 2897.726,
+      "tradeValue1000USD": 1003249.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 3.44
+    },
+    {
+      "id": "wheat:356:050",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "050",
+        "iso3": "BGD",
+        "name": "Bangladesh",
+        "lat": 24,
+        "lon": 90
+      },
+      "volumeTonnes": 2362527.84,
+      "volumeKt": 2362.528,
+      "tradeValue1000USD": 734544.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:250:056",
+      "from": {
+        "m49": "250",
+        "iso3": "FRA",
+        "name": "France",
+        "lat": 46,
+        "lon": 2
+      },
+      "to": {
+        "m49": "056",
+        "iso3": "BEL",
+        "name": "Belgium",
+        "lat": 50.83333,
+        "lon": 4
+      },
+      "volumeTonnes": 2348487.4,
+      "volumeKt": 2348.487,
+      "tradeValue1000USD": 790355.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 8.26
+    },
+    {
+      "id": "wheat:840:608",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "608",
+        "iso3": "PHL",
+        "name": "Philippines",
+        "lat": 13,
+        "lon": 122
+      },
+      "volumeTonnes": 2270216.26,
+      "volumeKt": 2270.216,
+      "tradeValue1000USD": 919971.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 14.56
+    },
+    {
+      "id": "wheat:250:012",
+      "from": {
+        "m49": "250",
+        "iso3": "FRA",
+        "name": "France",
+        "lat": 46,
+        "lon": 2
+      },
+      "to": {
+        "m49": "012",
+        "iso3": "DZA",
+        "name": "Algeria",
+        "lat": 28,
+        "lon": 3
+      },
+      "volumeTonnes": 2180327.66,
+      "volumeKt": 2180.328,
+      "tradeValue1000USD": 848893.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:840:392",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "392",
+        "iso3": "JPN",
+        "name": "Japan",
+        "lat": 36,
+        "lon": 138
+      },
+      "volumeTonnes": 2145240.32,
+      "volumeKt": 2145.24,
+      "tradeValue1000USD": 914204.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 0.39
+    },
+    {
+      "id": "wheat:124:156",
+      "from": {
+        "m49": "124",
+        "iso3": "CAN",
+        "name": "Canada",
+        "lat": 60,
+        "lon": -95
+      },
+      "to": {
+        "m49": "156",
+        "iso3": "CHN",
+        "name": "China, mainland",
+        "lat": 35,
+        "lon": 105
+      },
+      "volumeTonnes": 2126472.0,
+      "volumeKt": 2126.472,
+      "tradeValue1000USD": 877979.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 15.82
+    },
+    {
+      "id": "wheat:804:792",
+      "from": {
+        "m49": "804",
+        "iso3": "UKR",
+        "name": "Ukraine",
+        "lat": 49,
+        "lon": 32
+      },
+      "to": {
+        "m49": "792",
+        "iso3": "TUR",
+        "name": "Türkiye",
+        "lat": 39,
+        "lon": 35
+      },
+      "volumeTonnes": 2116569.97,
+      "volumeKt": 2116.57,
+      "tradeValue1000USD": 475594.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 2.72
+    },
+    {
+      "id": "wheat:036:410",
+      "from": {
+        "m49": "036",
+        "iso3": "AUS",
+        "name": "Australia",
+        "lat": -27,
+        "lon": 133
+      },
+      "to": {
+        "m49": "410",
+        "iso3": "KOR",
+        "name": "Republic of Korea",
+        "lat": 37,
+        "lon": 127.5
+      },
+      "volumeTonnes": 2114057.62,
+      "volumeKt": 2114.058,
+      "tradeValue1000USD": 722335.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 10.24
+    },
+    {
+      "id": "wheat:250:528",
+      "from": {
+        "m49": "250",
+        "iso3": "FRA",
+        "name": "France",
+        "lat": 46,
+        "lon": 2
+      },
+      "to": {
+        "m49": "528",
+        "iso3": "NLD",
+        "name": "Netherlands (Kingdom of the)",
+        "lat": 52.5,
+        "lon": 5.75
+      },
+      "volumeTonnes": 2043297.83,
+      "volumeKt": 2043.298,
+      "tradeValue1000USD": 680513.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 1.87
+    },
+    {
+      "id": "wheat:124:392",
+      "from": {
+        "m49": "124",
+        "iso3": "CAN",
+        "name": "Canada",
+        "lat": 60,
+        "lon": -95
+      },
+      "to": {
+        "m49": "392",
+        "iso3": "JPN",
+        "name": "Japan",
+        "lat": 36,
+        "lon": 138
+      },
+      "volumeTonnes": 1822997.0,
+      "volumeKt": 1822.997,
+      "tradeValue1000USD": 802598.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 3.09
+    },
+    {
+      "id": "wheat:643:364",
+      "from": {
+        "m49": "643",
+        "iso3": "RUS",
+        "name": "Russian Federation",
+        "lat": 60,
+        "lon": 100
+      },
+      "to": {
+        "m49": "364",
+        "iso3": "IRN",
+        "name": "Iran (Islamic Republic of)",
+        "lat": 32,
+        "lon": 53
+      },
+      "volumeTonnes": 1785810.0,
+      "volumeKt": 1785.81,
+      "tradeValue1000USD": 761564.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:643:682",
+      "from": {
+        "m49": "643",
+        "iso3": "RUS",
+        "name": "Russian Federation",
+        "lat": 60,
+        "lon": 100
+      },
+      "to": {
+        "m49": "682",
+        "iso3": "SAU",
+        "name": "Saudi Arabia",
+        "lat": 25,
+        "lon": 45
+      },
+      "volumeTonnes": 1769021.0,
+      "volumeKt": 1769.021,
+      "tradeValue1000USD": 859099.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:124:840",
+      "from": {
+        "m49": "124",
+        "iso3": "CAN",
+        "name": "Canada",
+        "lat": 60,
+        "lon": -95
+      },
+      "to": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "volumeTonnes": 1681087.0,
+      "volumeKt": 1681.087,
+      "tradeValue1000USD": 713187.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 0.64
+    },
+    {
+      "id": "wheat:203:276",
+      "from": {
+        "m49": "203",
+        "iso3": "CZE",
+        "name": "Czechia",
+        "lat": 49.75,
+        "lon": 15.5
+      },
+      "to": {
+        "m49": "276",
+        "iso3": "DEU",
+        "name": "Germany",
+        "lat": 51,
+        "lon": 9
+      },
+      "volumeTonnes": 1673159.45,
+      "volumeKt": 1673.159,
+      "tradeValue1000USD": 560934.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 1.38
+    },
+    {
+      "id": "wheat:643:398",
+      "from": {
+        "m49": "643",
+        "iso3": "RUS",
+        "name": "Russian Federation",
+        "lat": 60,
+        "lon": 100
+      },
+      "to": {
+        "m49": "398",
+        "iso3": "KAZ",
+        "name": "Kazakhstan",
+        "lat": 48,
+        "lon": 68
+      },
+      "volumeTonnes": 1645296.67,
+      "volumeKt": 1645.297,
+      "tradeValue1000USD": 330610.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:124:360",
+      "from": {
+        "m49": "124",
+        "iso3": "CAN",
+        "name": "Canada",
+        "lat": 60,
+        "lon": -95
+      },
+      "to": {
+        "m49": "360",
+        "iso3": "IDN",
+        "name": "Indonesia",
+        "lat": -5,
+        "lon": 120
+      },
+      "volumeTonnes": 1549465.0,
+      "volumeKt": 1549.465,
+      "tradeValue1000USD": 619226.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 14.65
+    },
+    {
+      "id": "wheat:250:156",
+      "from": {
+        "m49": "250",
+        "iso3": "FRA",
+        "name": "France",
+        "lat": 46,
+        "lon": 2
+      },
+      "to": {
+        "m49": "156",
+        "iso3": "CHN",
+        "name": "China, mainland",
+        "lat": 35,
+        "lon": 105
+      },
+      "volumeTonnes": 1539629.5,
+      "volumeKt": 1539.63,
+      "tradeValue1000USD": 504492.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 9.32
+    },
+    {
+      "id": "wheat:250:724",
+      "from": {
+        "m49": "250",
+        "iso3": "FRA",
+        "name": "France",
+        "lat": 46,
+        "lon": 2
+      },
+      "to": {
+        "m49": "724",
+        "iso3": "ESP",
+        "name": "Spain",
+        "lat": 40,
+        "lon": -4
+      },
+      "volumeTonnes": 1485814.5,
+      "volumeKt": 1485.814,
+      "tradeValue1000USD": 522371.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 8.89
+    },
+    {
+      "id": "wheat:804:642",
+      "from": {
+        "m49": "804",
+        "iso3": "UKR",
+        "name": "Ukraine",
+        "lat": 49,
+        "lon": 32
+      },
+      "to": {
+        "m49": "642",
+        "iso3": "ROU",
+        "name": "Romania",
+        "lat": 46,
+        "lon": 25
+      },
+      "volumeTonnes": 1458335.86,
+      "volumeKt": 1458.336,
+      "tradeValue1000USD": 329418.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 65.34
+    },
+    {
+      "id": "wheat:032:360",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "360",
+        "iso3": "IDN",
+        "name": "Indonesia",
+        "lat": -5,
+        "lon": 120
+      },
+      "volumeTonnes": 1335940.0,
+      "volumeKt": 1335.94,
+      "tradeValue1000USD": 412687.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 9.1
+    },
+    {
+      "id": "wheat:100:012",
+      "from": {
+        "m49": "100",
+        "iso3": "BGR",
+        "name": "Bulgaria",
+        "lat": 43,
+        "lon": 25
+      },
+      "to": {
+        "m49": "012",
+        "iso3": "DZA",
+        "name": "Algeria",
+        "lat": 28,
+        "lon": 3
+      },
+      "volumeTonnes": 1318706.05,
+      "volumeKt": 1318.706,
+      "tradeValue1000USD": 476986.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:250:380",
+      "from": {
+        "m49": "250",
+        "iso3": "FRA",
+        "name": "France",
+        "lat": 46,
+        "lon": 2
+      },
+      "to": {
+        "m49": "380",
+        "iso3": "ITA",
+        "name": "Italy",
+        "lat": 42.83333,
+        "lon": 12.83333
+      },
+      "volumeTonnes": 1297565.56,
+      "volumeKt": 1297.566,
+      "tradeValue1000USD": 480791.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 0.61
+    },
+    {
+      "id": "wheat:642:818",
+      "from": {
+        "m49": "642",
+        "iso3": "ROU",
+        "name": "Romania",
+        "lat": 46,
+        "lon": 25
+      },
+      "to": {
+        "m49": "818",
+        "iso3": "EGY",
+        "name": "Egypt",
+        "lat": 27,
+        "lon": 30
+      },
+      "volumeTonnes": 1272980.08,
+      "volumeKt": 1272.98,
+      "tradeValue1000USD": 470122.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 3.44
+    },
+    {
+      "id": "wheat:250:818",
+      "from": {
+        "m49": "250",
+        "iso3": "FRA",
+        "name": "France",
+        "lat": 46,
+        "lon": 2
+      },
+      "to": {
+        "m49": "818",
+        "iso3": "EGY",
+        "name": "Egypt",
+        "lat": 27,
+        "lon": 30
+      },
+      "volumeTonnes": 1267323.06,
+      "volumeKt": 1267.323,
+      "tradeValue1000USD": 512895.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 1.52
+    },
+    {
+      "id": "wheat:036:392",
+      "from": {
+        "m49": "036",
+        "iso3": "AUS",
+        "name": "Australia",
+        "lat": -27,
+        "lon": 133
+      },
+      "to": {
+        "m49": "392",
+        "iso3": "JPN",
+        "name": "Japan",
+        "lat": 36,
+        "lon": 138
+      },
+      "volumeTonnes": 1255959.18,
+      "volumeKt": 1255.959,
+      "tradeValue1000USD": 454561.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 3.82
+    },
+    {
+      "id": "wheat:276:364",
+      "from": {
+        "m49": "276",
+        "iso3": "DEU",
+        "name": "Germany",
+        "lat": 51,
+        "lon": 9
+      },
+      "to": {
+        "m49": "364",
+        "iso3": "IRN",
+        "name": "Iran (Islamic Republic of)",
+        "lat": 32,
+        "lon": 53
+      },
+      "volumeTonnes": 1254443.8,
+      "volumeKt": 1254.444,
+      "tradeValue1000USD": 428902.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 45.25
+    },
+    {
+      "id": "wheat:840:410",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "410",
+        "iso3": "KOR",
+        "name": "Republic of Korea",
+        "lat": 37,
+        "lon": 127.5
+      },
+      "volumeTonnes": 1185387.54,
+      "volumeKt": 1185.388,
+      "tradeValue1000USD": 474403.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 1.75
+    },
+    {
+      "id": "wheat:840:566",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "566",
+        "iso3": "NGA",
+        "name": "Nigeria",
+        "lat": 10,
+        "lon": 8
+      },
+      "volumeTonnes": 1179414.0,
+      "volumeKt": 1179.414,
+      "tradeValue1000USD": 478354.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:124:170",
+      "from": {
+        "m49": "124",
+        "iso3": "CAN",
+        "name": "Canada",
+        "lat": 60,
+        "lon": -95
+      },
+      "to": {
+        "m49": "170",
+        "iso3": "COL",
+        "name": "Colombia",
+        "lat": 4,
+        "lon": -72
+      },
+      "volumeTonnes": 1161725.0,
+      "volumeKt": 1161.725,
+      "tradeValue1000USD": 483891.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 6.42
+    },
+    {
+      "id": "wheat:804:724",
+      "from": {
+        "m49": "804",
+        "iso3": "UKR",
+        "name": "Ukraine",
+        "lat": 49,
+        "lon": 32
+      },
+      "to": {
+        "m49": "724",
+        "iso3": "ESP",
+        "name": "Spain",
+        "lat": 40,
+        "lon": -4
+      },
+      "volumeTonnes": 1154272.62,
+      "volumeKt": 1154.273,
+      "tradeValue1000USD": 228306.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 11.85
+    },
+    {
+      "id": "wheat:616:276",
+      "from": {
+        "m49": "616",
+        "iso3": "POL",
+        "name": "Poland",
+        "lat": 52,
+        "lon": 20
+      },
+      "to": {
+        "m49": "276",
+        "iso3": "DEU",
+        "name": "Germany",
+        "lat": 51,
+        "lon": 9
+      },
+      "volumeTonnes": 1149145.22,
+      "volumeKt": 1149.145,
+      "tradeValue1000USD": 430496.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 3.47
+    },
+    {
+      "id": "wheat:036:458",
+      "from": {
+        "m49": "036",
+        "iso3": "AUS",
+        "name": "Australia",
+        "lat": -27,
+        "lon": 133
+      },
+      "to": {
+        "m49": "458",
+        "iso3": "MYS",
+        "name": "Malaysia",
+        "lat": 2.5,
+        "lon": 112.5
+      },
+      "volumeTonnes": 1087514.76,
+      "volumeKt": 1087.515,
+      "tradeValue1000USD": 381068.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 13.21
+    },
+    {
+      "id": "wheat:643:031",
+      "from": {
+        "m49": "643",
+        "iso3": "RUS",
+        "name": "Russian Federation",
+        "lat": 60,
+        "lon": 100
+      },
+      "to": {
+        "m49": "031",
+        "iso3": "AZE",
+        "name": "Azerbaijan",
+        "lat": 40.5,
+        "lon": 47.5
+      },
+      "volumeTonnes": 1011589.5,
+      "volumeKt": 1011.59,
+      "tradeValue1000USD": 339712.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:124:050",
+      "from": {
+        "m49": "124",
+        "iso3": "CAN",
+        "name": "Canada",
+        "lat": 60,
+        "lon": -95
+      },
+      "to": {
+        "m49": "050",
+        "iso3": "BGD",
+        "name": "Bangladesh",
+        "lat": 24,
+        "lon": 90
+      },
+      "volumeTonnes": 995734.0,
+      "volumeKt": 995.734,
+      "tradeValue1000USD": 396797.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:398:762",
+      "from": {
+        "m49": "398",
+        "iso3": "KAZ",
+        "name": "Kazakhstan",
+        "lat": 48,
+        "lon": 68
+      },
+      "to": {
+        "m49": "762",
+        "iso3": "TJK",
+        "name": "Tajikistan",
+        "lat": 39,
+        "lon": 71
+      },
+      "volumeTonnes": 986725.92,
+      "volumeKt": 986.726,
+      "tradeValue1000USD": 309941.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 0.05
+    },
+    {
+      "id": "wheat:642:400",
+      "from": {
+        "m49": "642",
+        "iso3": "ROU",
+        "name": "Romania",
+        "lat": 46,
+        "lon": 25
+      },
+      "to": {
+        "m49": "400",
+        "iso3": "JOR",
+        "name": "Jordan",
+        "lat": 31,
+        "lon": 36
+      },
+      "volumeTonnes": 978764.02,
+      "volumeKt": 978.764,
+      "tradeValue1000USD": 339493.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 25.04
+    },
+    {
+      "id": "wheat:036:887",
+      "from": {
+        "m49": "036",
+        "iso3": "AUS",
+        "name": "Australia",
+        "lat": -27,
+        "lon": 133
+      },
+      "to": {
+        "m49": "887",
+        "iso3": "YEM",
+        "name": "Yemen",
+        "lat": 15,
+        "lon": 48
+      },
+      "volumeTonnes": 962078.2,
+      "volumeKt": 962.078,
+      "tradeValue1000USD": 333306.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:124:604",
+      "from": {
+        "m49": "124",
+        "iso3": "CAN",
+        "name": "Canada",
+        "lat": 60,
+        "lon": -95
+      },
+      "to": {
+        "m49": "604",
+        "iso3": "PER",
+        "name": "Peru",
+        "lat": -10,
+        "lon": -76
+      },
+      "volumeTonnes": 945714.0,
+      "volumeKt": 945.714,
+      "tradeValue1000USD": 388152.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 7.4
+    },
+    {
+      "id": "wheat:356:360",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "360",
+        "iso3": "IDN",
+        "name": "Indonesia",
+        "lat": -5,
+        "lon": 120
+      },
+      "volumeTonnes": 939493.01,
+      "volumeKt": 939.493,
+      "tradeValue1000USD": 302905.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 2.45
+    },
+    {
+      "id": "wheat:276:528",
+      "from": {
+        "m49": "276",
+        "iso3": "DEU",
+        "name": "Germany",
+        "lat": 51,
+        "lon": 9
+      },
+      "to": {
+        "m49": "528",
+        "iso3": "NLD",
+        "name": "Netherlands (Kingdom of the)",
+        "lat": 52.5,
+        "lon": 5.75
+      },
+      "volumeTonnes": 923104.67,
+      "volumeKt": 923.105,
+      "tradeValue1000USD": 307893.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 12.5
+    },
+    {
+      "id": "wheat:440:566",
+      "from": {
+        "m49": "440",
+        "iso3": "LTU",
+        "name": "Lithuania",
+        "lat": 56,
+        "lon": 24
+      },
+      "to": {
+        "m49": "566",
+        "iso3": "NGA",
+        "name": "Nigeria",
+        "lat": 10,
+        "lon": 8
+      },
+      "volumeTonnes": 894145.89,
+      "volumeKt": 894.146,
+      "tradeValue1000USD": 313882.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:124:380",
+      "from": {
+        "m49": "124",
+        "iso3": "CAN",
+        "name": "Canada",
+        "lat": 60,
+        "lon": -95
+      },
+      "to": {
+        "m49": "380",
+        "iso3": "ITA",
+        "name": "Italy",
+        "lat": 42.83333,
+        "lon": 12.83333
+      },
+      "volumeTonnes": 882389.36,
+      "volumeKt": 882.389,
+      "tradeValue1000USD": 415000.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "I",
+      "mirrorDisagreementPct": 7.15
+    },
+    {
+      "id": "wheat:840:158",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "158",
+        "iso3": "TWN",
+        "name": "China, Taiwan Province of",
+        "lat": 23.5,
+        "lon": 121
+      },
+      "volumeTonnes": 881881.59,
+      "volumeKt": 881.882,
+      "tradeValue1000USD": 379294.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 1.07
+    },
+    {
+      "id": "wheat:840:156",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "156",
+        "iso3": "CHN",
+        "name": "China, mainland",
+        "lat": 35,
+        "lon": 105
+      },
+      "volumeTonnes": 877247.77,
+      "volumeKt": 877.248,
+      "tradeValue1000USD": 395178.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 28.69
+    },
+    {
+      "id": "wheat:804:818",
+      "from": {
+        "m49": "804",
+        "iso3": "UKR",
+        "name": "Ukraine",
+        "lat": 49,
+        "lon": 32
+      },
+      "to": {
+        "m49": "818",
+        "iso3": "EGY",
+        "name": "Egypt",
+        "lat": 27,
+        "lon": 30
+      },
+      "volumeTonnes": 873283.18,
+      "volumeKt": 873.283,
+      "tradeValue1000USD": 241628.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 47.26
+    },
+    {
+      "id": "wheat:642:012",
+      "from": {
+        "m49": "642",
+        "iso3": "ROU",
+        "name": "Romania",
+        "lat": 46,
+        "lon": 25
+      },
+      "to": {
+        "m49": "012",
+        "iso3": "DZA",
+        "name": "Algeria",
+        "lat": 28,
+        "lon": 3
+      },
+      "volumeTonnes": 863871.68,
+      "volumeKt": 863.872,
+      "tradeValue1000USD": 322122.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:348:380",
+      "from": {
+        "m49": "348",
+        "iso3": "HUN",
+        "name": "Hungary",
+        "lat": 47,
+        "lon": 20
+      },
+      "to": {
+        "m49": "380",
+        "iso3": "ITA",
+        "name": "Italy",
+        "lat": 42.83333,
+        "lon": 12.83333
+      },
+      "volumeTonnes": 812436.62,
+      "volumeKt": 812.437,
+      "tradeValue1000USD": 274447.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 21.1
+    },
+    {
+      "id": "wheat:643:376",
+      "from": {
+        "m49": "643",
+        "iso3": "RUS",
+        "name": "Russian Federation",
+        "lat": 60,
+        "lon": 100
+      },
+      "to": {
+        "m49": "376",
+        "iso3": "ISR",
+        "name": "Israel",
+        "lat": 31.5,
+        "lon": 34.75
+      },
+      "volumeTonnes": 801573.78,
+      "volumeKt": 801.574,
+      "tradeValue1000USD": 285449.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "I",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:036:764",
+      "from": {
+        "m49": "036",
+        "iso3": "AUS",
+        "name": "Australia",
+        "lat": -27,
+        "lon": 133
+      },
+      "to": {
+        "m49": "764",
+        "iso3": "THA",
+        "name": "Thailand",
+        "lat": 15,
+        "lon": 100
+      },
+      "volumeTonnes": 800485.5,
+      "volumeKt": 800.486,
+      "tradeValue1000USD": 291306.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 7.56
+    },
+    {
+      "id": "wheat:643:586",
+      "from": {
+        "m49": "643",
+        "iso3": "RUS",
+        "name": "Russian Federation",
+        "lat": 60,
+        "lon": 100
+      },
+      "to": {
+        "m49": "586",
+        "iso3": "PAK",
+        "name": "Pakistan",
+        "lat": 30,
+        "lon": 70
+      },
+      "volumeTonnes": 788251.0,
+      "volumeKt": 788.251,
+      "tradeValue1000USD": 325532.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:032:012",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "012",
+        "iso3": "DZA",
+        "name": "Algeria",
+        "lat": 28,
+        "lon": 3
+      },
+      "volumeTonnes": 735006.0,
+      "volumeKt": 735.006,
+      "tradeValue1000USD": 216684.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:428:566",
+      "from": {
+        "m49": "428",
+        "iso3": "LVA",
+        "name": "Latvia",
+        "lat": 57,
+        "lon": 25
+      },
+      "to": {
+        "m49": "566",
+        "iso3": "NGA",
+        "name": "Nigeria",
+        "lat": 10,
+        "lon": 8
+      },
+      "volumeTonnes": 731312.81,
+      "volumeKt": 731.313,
+      "tradeValue1000USD": 251603.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:032:566",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "566",
+        "iso3": "NGA",
+        "name": "Nigeria",
+        "lat": 10,
+        "lon": 8
+      },
+      "volumeTonnes": 729356.0,
+      "volumeKt": 729.356,
+      "tradeValue1000USD": 222986.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:032:504",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "504",
+        "iso3": "MAR",
+        "name": "Morocco",
+        "lat": 32,
+        "lon": -5
+      },
+      "volumeTonnes": 727544.0,
+      "volumeKt": 727.544,
+      "tradeValue1000USD": 221663.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 17.23
+    },
+    {
+      "id": "wheat:124:504",
+      "from": {
+        "m49": "124",
+        "iso3": "CAN",
+        "name": "Canada",
+        "lat": 60,
+        "lon": -95
+      },
+      "to": {
+        "m49": "504",
+        "iso3": "MAR",
+        "name": "Morocco",
+        "lat": 32,
+        "lon": -5
+      },
+      "volumeTonnes": 709350.0,
+      "volumeKt": 709.35,
+      "tradeValue1000USD": 371302.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 0.88
+    },
+    {
+      "id": "wheat:032:604",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "604",
+        "iso3": "PER",
+        "name": "Peru",
+        "lat": -10,
+        "lon": -76
+      },
+      "volumeTonnes": 697115.0,
+      "volumeKt": 697.115,
+      "tradeValue1000USD": 213111.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 5.97
+    },
+    {
+      "id": "wheat:398:004",
+      "from": {
+        "m49": "398",
+        "iso3": "KAZ",
+        "name": "Kazakhstan",
+        "lat": 48,
+        "lon": 68
+      },
+      "to": {
+        "m49": "004",
+        "iso3": "AFG",
+        "name": "Afghanistan",
+        "lat": 33,
+        "lon": 65
+      },
+      "volumeTonnes": 686729.7,
+      "volumeKt": 686.73,
+      "tradeValue1000USD": 194333.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:840:887",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "887",
+        "iso3": "YEM",
+        "name": "Yemen",
+        "lat": 15,
+        "lon": 48
+      },
+      "volumeTonnes": 678398.0,
+      "volumeKt": 678.398,
+      "tradeValue1000USD": 262436.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:356:410",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "410",
+        "iso3": "KOR",
+        "name": "Republic of Korea",
+        "lat": 37,
+        "lon": 127.5
+      },
+      "volumeTonnes": 657464.8,
+      "volumeKt": 657.465,
+      "tradeValue1000USD": 198080.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 9.17
+    },
+    {
+      "id": "wheat:032:152",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "152",
+        "iso3": "CHL",
+        "name": "Chile",
+        "lat": -30,
+        "lon": -71
+      },
+      "volumeTonnes": 649515.09,
+      "volumeKt": 649.515,
+      "tradeValue1000USD": 208274.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 6.75
+    },
+    {
+      "id": "wheat:250:620",
+      "from": {
+        "m49": "250",
+        "iso3": "FRA",
+        "name": "France",
+        "lat": 46,
+        "lon": 2
+      },
+      "to": {
+        "m49": "620",
+        "iso3": "PRT",
+        "name": "Portugal",
+        "lat": 39.5,
+        "lon": -8
+      },
+      "volumeTonnes": 640752.86,
+      "volumeKt": 640.753,
+      "tradeValue1000USD": 247369.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 9.87
+    },
+    {
+      "id": "wheat:036:554",
+      "from": {
+        "m49": "036",
+        "iso3": "AUS",
+        "name": "Australia",
+        "lat": -27,
+        "lon": 133
+      },
+      "to": {
+        "m49": "554",
+        "iso3": "NZL",
+        "name": "New Zealand",
+        "lat": -41,
+        "lon": 174
+      },
+      "volumeTonnes": 635527.4,
+      "volumeKt": 635.527,
+      "tradeValue1000USD": 233040.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 2.24
+    },
+    {
+      "id": "wheat:076:682",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "682",
+        "iso3": "SAU",
+        "name": "Saudi Arabia",
+        "lat": 25,
+        "lon": 45
+      },
+      "volumeTonnes": 633649.18,
+      "volumeKt": 633.649,
+      "tradeValue1000USD": 195868.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 10.75
+    },
+    {
+      "id": "wheat:840:170",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "170",
+        "iso3": "COL",
+        "name": "Colombia",
+        "lat": 4,
+        "lon": -72
+      },
+      "volumeTonnes": 631793.0,
+      "volumeKt": 631.793,
+      "tradeValue1000USD": 237576.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 7.2
+    },
+    {
+      "id": "wheat:076:360",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "360",
+        "iso3": "IDN",
+        "name": "Indonesia",
+        "lat": -5,
+        "lon": 120
+      },
+      "volumeTonnes": 595035.35,
+      "volumeKt": 595.035,
+      "tradeValue1000USD": 190067.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 7.26
+    },
+    {
+      "id": "wheat:036:729",
+      "from": {
+        "m49": "036",
+        "iso3": "AUS",
+        "name": "Australia",
+        "lat": -27,
+        "lon": 133
+      },
+      "to": {
+        "m49": "729",
+        "iso3": "SDN",
+        "name": "Sudan",
+        "lat": 15,
+        "lon": 30
+      },
+      "volumeTonnes": 592864.1,
+      "volumeKt": 592.864,
+      "tradeValue1000USD": 202420.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:276:056",
+      "from": {
+        "m49": "276",
+        "iso3": "DEU",
+        "name": "Germany",
+        "lat": 51,
+        "lon": 9
+      },
+      "to": {
+        "m49": "056",
+        "iso3": "BEL",
+        "name": "Belgium",
+        "lat": 50.83333,
+        "lon": 4
+      },
+      "volumeTonnes": 581001.19,
+      "volumeKt": 581.001,
+      "tradeValue1000USD": 206821.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 15.26
+    },
+    {
+      "id": "wheat:804:616",
+      "from": {
+        "m49": "804",
+        "iso3": "UKR",
+        "name": "Ukraine",
+        "lat": 49,
+        "lon": 32
+      },
+      "to": {
+        "m49": "616",
+        "iso3": "POL",
+        "name": "Poland",
+        "lat": 52,
+        "lon": 20
+      },
+      "volumeTonnes": 580881.47,
+      "volumeKt": 580.881,
+      "tradeValue1000USD": 132167.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 9.99
+    },
+    {
+      "id": "wheat:398:364",
+      "from": {
+        "m49": "398",
+        "iso3": "KAZ",
+        "name": "Kazakhstan",
+        "lat": 48,
+        "lon": 68
+      },
+      "to": {
+        "m49": "364",
+        "iso3": "IRN",
+        "name": "Iran (Islamic Republic of)",
+        "lat": 32,
+        "lon": 53
+      },
+      "volumeTonnes": 575457.5,
+      "volumeKt": 575.457,
+      "tradeValue1000USD": 190727.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 50.96
+    },
+    {
+      "id": "wheat:124:012",
+      "from": {
+        "m49": "124",
+        "iso3": "CAN",
+        "name": "Canada",
+        "lat": 60,
+        "lon": -95
+      },
+      "to": {
+        "m49": "012",
+        "iso3": "DZA",
+        "name": "Algeria",
+        "lat": 28,
+        "lon": 3
+      },
+      "volumeTonnes": 571150.0,
+      "volumeKt": 571.15,
+      "tradeValue1000USD": 307320.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:840:764",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "764",
+        "iso3": "THA",
+        "name": "Thailand",
+        "lat": 15,
+        "lon": 100
+      },
+      "volumeTonnes": 561015.0,
+      "volumeKt": 561.015,
+      "tradeValue1000USD": 232797.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 13.52
+    },
+    {
+      "id": "wheat:528:364",
+      "from": {
+        "m49": "528",
+        "iso3": "NLD",
+        "name": "Netherlands (Kingdom of the)",
+        "lat": 52.5,
+        "lon": 5.75
+      },
+      "to": {
+        "m49": "364",
+        "iso3": "IRN",
+        "name": "Iran (Islamic Republic of)",
+        "lat": 32,
+        "lon": 53
+      },
+      "volumeTonnes": 560684.0,
+      "volumeKt": 560.684,
+      "tradeValue1000USD": 232483.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:124:218",
+      "from": {
+        "m49": "124",
+        "iso3": "CAN",
+        "name": "Canada",
+        "lat": 60,
+        "lon": -95
+      },
+      "to": {
+        "m49": "218",
+        "iso3": "ECU",
+        "name": "Ecuador",
+        "lat": -2,
+        "lon": -77.5
+      },
+      "volumeTonnes": 558923.0,
+      "volumeKt": 558.923,
+      "tradeValue1000USD": 229966.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 17.67
+    },
+    {
+      "id": "wheat:356:784",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "784",
+        "iso3": "ARE",
+        "name": "United Arab Emirates",
+        "lat": 24,
+        "lon": 54
+      },
+      "volumeTonnes": 557197.64,
+      "volumeKt": 557.198,
+      "tradeValue1000USD": 179557.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 24.21
+    },
+    {
+      "id": "wheat:702:364",
+      "from": {
+        "m49": "702",
+        "iso3": "SGP",
+        "name": "Singapore",
+        "lat": 1.36667,
+        "lon": 103.8
+      },
+      "to": {
+        "m49": "364",
+        "iso3": "IRN",
+        "name": "Iran (Islamic Republic of)",
+        "lat": 32,
+        "lon": 53
+      },
+      "volumeTonnes": 556893.0,
+      "volumeKt": 556.893,
+      "tradeValue1000USD": 219607.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:348:040",
+      "from": {
+        "m49": "348",
+        "iso3": "HUN",
+        "name": "Hungary",
+        "lat": 47,
+        "lon": 20
+      },
+      "to": {
+        "m49": "040",
+        "iso3": "AUT",
+        "name": "Austria",
+        "lat": 47.33333,
+        "lon": 13.33333
+      },
+      "volumeTonnes": 554971.68,
+      "volumeKt": 554.972,
+      "tradeValue1000USD": 195964.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 4.72
+    },
+    {
+      "id": "wheat:840:231",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "231",
+        "iso3": "ETH",
+        "name": "Ethiopia",
+        "lat": 8,
+        "lon": 38
+      },
+      "volumeTonnes": 537290.0,
+      "volumeKt": 537.29,
+      "tradeValue1000USD": 215956.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 13.11
+    },
+    {
+      "id": "wheat:124:484",
+      "from": {
+        "m49": "124",
+        "iso3": "CAN",
+        "name": "Canada",
+        "lat": 60,
+        "lon": -95
+      },
+      "to": {
+        "m49": "484",
+        "iso3": "MEX",
+        "name": "Mexico",
+        "lat": 23,
+        "lon": -102
+      },
+      "volumeTonnes": 501521.0,
+      "volumeKt": 501.521,
+      "tradeValue1000USD": 194073.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 61.57
+    },
+    {
+      "id": "wheat:804:012",
+      "from": {
+        "m49": "804",
+        "iso3": "UKR",
+        "name": "Ukraine",
+        "lat": 49,
+        "lon": 32
+      },
+      "to": {
+        "m49": "012",
+        "iso3": "DZA",
+        "name": "Algeria",
+        "lat": 28,
+        "lon": 3
+      },
+      "volumeTonnes": 487810.67,
+      "volumeKt": 487.811,
+      "tradeValue1000USD": 140652.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:250:276",
+      "from": {
+        "m49": "250",
+        "iso3": "FRA",
+        "name": "France",
+        "lat": 46,
+        "lon": 2
+      },
+      "to": {
+        "m49": "276",
+        "iso3": "DEU",
+        "name": "Germany",
+        "lat": 51,
+        "lon": 9
+      },
+      "volumeTonnes": 487581.56,
+      "volumeKt": 487.582,
+      "tradeValue1000USD": 165809.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 6.89
+    },
+    {
+      "id": "wheat:840:222",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "222",
+        "iso3": "SLV",
+        "name": "El Salvador",
+        "lat": 13.83333,
+        "lon": -88.91667
+      },
+      "volumeTonnes": 485061.0,
+      "volumeKt": 485.061,
+      "tradeValue1000USD": 195955.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 54.67
+    },
+    {
+      "id": "wheat:100:300",
+      "from": {
+        "m49": "100",
+        "iso3": "BGR",
+        "name": "Bulgaria",
+        "lat": 43,
+        "lon": 25
+      },
+      "to": {
+        "m49": "300",
+        "iso3": "GRC",
+        "name": "Greece",
+        "lat": 39,
+        "lon": 22
+      },
+      "volumeTonnes": 469531.61,
+      "volumeKt": 469.532,
+      "tradeValue1000USD": 177733.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 3.47
+    },
+    {
+      "id": "wheat:124:566",
+      "from": {
+        "m49": "124",
+        "iso3": "CAN",
+        "name": "Canada",
+        "lat": 60,
+        "lon": -95
+      },
+      "to": {
+        "m49": "566",
+        "iso3": "NGA",
+        "name": "Nigeria",
+        "lat": 10,
+        "lon": 8
+      },
+      "volumeTonnes": 465309.0,
+      "volumeKt": 465.309,
+      "tradeValue1000USD": 203352.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:484:862",
+      "from": {
+        "m49": "484",
+        "iso3": "MEX",
+        "name": "Mexico",
+        "lat": 23,
+        "lon": -102
+      },
+      "to": {
+        "m49": "862",
+        "iso3": "VEN",
+        "name": "Venezuela (Bolivarian Republic of)",
+        "lat": 8,
+        "lon": -66
+      },
+      "volumeTonnes": 461132.06,
+      "volumeKt": 461.132,
+      "tradeValue1000USD": 89738.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:032:404",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "404",
+        "iso3": "KEN",
+        "name": "Kenya",
+        "lat": 1,
+        "lon": 38
+      },
+      "volumeTonnes": 451941.0,
+      "volumeKt": 451.941,
+      "tradeValue1000USD": 136875.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 23.24
+    },
+    {
+      "id": "wheat:276:504",
+      "from": {
+        "m49": "276",
+        "iso3": "DEU",
+        "name": "Germany",
+        "lat": 51,
+        "lon": 9
+      },
+      "to": {
+        "m49": "504",
+        "iso3": "MAR",
+        "name": "Morocco",
+        "lat": 32,
+        "lon": -5
+      },
+      "volumeTonnes": 447067.93,
+      "volumeKt": 447.068,
+      "tradeValue1000USD": 151664.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 26.79
+    },
+    {
+      "id": "wheat:616:566",
+      "from": {
+        "m49": "616",
+        "iso3": "POL",
+        "name": "Poland",
+        "lat": 52,
+        "lon": 20
+      },
+      "to": {
+        "m49": "566",
+        "iso3": "NGA",
+        "name": "Nigeria",
+        "lat": 10,
+        "lon": 8
+      },
+      "volumeTonnes": 445108.7,
+      "volumeKt": 445.109,
+      "tradeValue1000USD": 169097.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:356:887",
+      "from": {
+        "m49": "356",
+        "iso3": "IND",
+        "name": "India",
+        "lat": 20,
+        "lon": 77
+      },
+      "to": {
+        "m49": "887",
+        "iso3": "YEM",
+        "name": "Yemen",
+        "lat": 15,
+        "lon": 48
+      },
+      "volumeTonnes": 444883.0,
+      "volumeKt": 444.883,
+      "tradeValue1000USD": 141341.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:100:788",
+      "from": {
+        "m49": "100",
+        "iso3": "BGR",
+        "name": "Bulgaria",
+        "lat": 43,
+        "lon": 25
+      },
+      "to": {
+        "m49": "788",
+        "iso3": "TUN",
+        "name": "Tunisia",
+        "lat": 34,
+        "lon": 9
+      },
+      "volumeTonnes": 441745.51,
+      "volumeKt": 441.746,
+      "tradeValue1000USD": 166436.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 5.46
+    },
+    {
+      "id": "wheat:036:710",
+      "from": {
+        "m49": "036",
+        "iso3": "AUS",
+        "name": "Australia",
+        "lat": -27,
+        "lon": 133
+      },
+      "to": {
+        "m49": "710",
+        "iso3": "ZAF",
+        "name": "South Africa",
+        "lat": -29,
+        "lon": 24
+      },
+      "volumeTonnes": 435137.0,
+      "volumeKt": 435.137,
+      "tradeValue1000USD": 156620.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 19.68
+    },
+    {
+      "id": "wheat:643:512",
+      "from": {
+        "m49": "643",
+        "iso3": "RUS",
+        "name": "Russian Federation",
+        "lat": 60,
+        "lon": 100
+      },
+      "to": {
+        "m49": "512",
+        "iso3": "OMN",
+        "name": "Oman",
+        "lat": 21,
+        "lon": 57
+      },
+      "volumeTonnes": 423416.44,
+      "volumeKt": 423.416,
+      "tradeValue1000USD": 88536.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "I",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:804:422",
+      "from": {
+        "m49": "804",
+        "iso3": "UKR",
+        "name": "Ukraine",
+        "lat": 49,
+        "lon": 32
+      },
+      "to": {
+        "m49": "422",
+        "iso3": "LBN",
+        "name": "Lebanon",
+        "lat": 33.83333,
+        "lon": 35.83333
+      },
+      "volumeTonnes": 423191.02,
+      "volumeKt": 423.191,
+      "tradeValue1000USD": 100441.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 0.14
+    },
+    {
+      "id": "wheat:040:380",
+      "from": {
+        "m49": "040",
+        "iso3": "AUT",
+        "name": "Austria",
+        "lat": 47.33333,
+        "lon": 13.33333
+      },
+      "to": {
+        "m49": "380",
+        "iso3": "ITA",
+        "name": "Italy",
+        "lat": 42.83333,
+        "lon": 12.83333
+      },
+      "volumeTonnes": 419926.77,
+      "volumeKt": 419.927,
+      "tradeValue1000USD": 175694.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 17.34
+    },
+    {
+      "id": "wheat:036:404",
+      "from": {
+        "m49": "036",
+        "iso3": "AUS",
+        "name": "Australia",
+        "lat": -27,
+        "lon": 133
+      },
+      "to": {
+        "m49": "404",
+        "iso3": "KEN",
+        "name": "Kenya",
+        "lat": 1,
+        "lon": 38
+      },
+      "volumeTonnes": 417754.5,
+      "volumeKt": 417.755,
+      "tradeValue1000USD": 144502.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 11.14
+    },
+    {
+      "id": "wheat:703:348",
+      "from": {
+        "m49": "703",
+        "iso3": "SVK",
+        "name": "Slovakia",
+        "lat": 48.66667,
+        "lon": 19.5
+      },
+      "to": {
+        "m49": "348",
+        "iso3": "HUN",
+        "name": "Hungary",
+        "lat": 47,
+        "lon": 20
+      },
+      "volumeTonnes": 405234.36,
+      "volumeKt": 405.234,
+      "tradeValue1000USD": 126154.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 51.59
+    },
+    {
+      "id": "wheat:036:158",
+      "from": {
+        "m49": "036",
+        "iso3": "AUS",
+        "name": "Australia",
+        "lat": -27,
+        "lon": 133
+      },
+      "to": {
+        "m49": "158",
+        "iso3": "TWN",
+        "name": "China, Taiwan Province of",
+        "lat": 23.5,
+        "lon": 121
+      },
+      "volumeTonnes": 403097.71,
+      "volumeKt": 403.098,
+      "tradeValue1000USD": 156487.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 0.46
+    },
+    {
+      "id": "wheat:643:404",
+      "from": {
+        "m49": "643",
+        "iso3": "RUS",
+        "name": "Russian Federation",
+        "lat": 60,
+        "lon": 100
+      },
+      "to": {
+        "m49": "404",
+        "iso3": "KEN",
+        "name": "Kenya",
+        "lat": 1,
+        "lon": 38
+      },
+      "volumeTonnes": 401903.4,
+      "volumeKt": 401.903,
+      "tradeValue1000USD": 157094.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:440:428",
+      "from": {
+        "m49": "440",
+        "iso3": "LTU",
+        "name": "Lithuania",
+        "lat": 56,
+        "lon": 24
+      },
+      "to": {
+        "m49": "428",
+        "iso3": "LVA",
+        "name": "Latvia",
+        "lat": 57,
+        "lon": 25
+      },
+      "volumeTonnes": 401673.65,
+      "volumeKt": 401.674,
+      "tradeValue1000USD": 110517.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 17.59
+    },
+    {
+      "id": "wheat:804:380",
+      "from": {
+        "m49": "804",
+        "iso3": "UKR",
+        "name": "Ukraine",
+        "lat": 49,
+        "lon": 32
+      },
+      "to": {
+        "m49": "380",
+        "iso3": "ITA",
+        "name": "Italy",
+        "lat": 42.83333,
+        "lon": 12.83333
+      },
+      "volumeTonnes": 396679.54,
+      "volumeKt": 396.68,
+      "tradeValue1000USD": 77948.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 9.87
+    },
+    {
+      "id": "wheat:191:380",
+      "from": {
+        "m49": "191",
+        "iso3": "HRV",
+        "name": "Croatia",
+        "lat": 45.16667,
+        "lon": 15.5
+      },
+      "to": {
+        "m49": "380",
+        "iso3": "ITA",
+        "name": "Italy",
+        "lat": 42.83333,
+        "lon": 12.83333
+      },
+      "volumeTonnes": 395265.92,
+      "volumeKt": 395.266,
+      "tradeValue1000USD": 142256.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 2.6
+    },
+    {
+      "id": "wheat:032:710",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "710",
+        "iso3": "ZAF",
+        "name": "South Africa",
+        "lat": -29,
+        "lon": 24
+      },
+      "volumeTonnes": 379028.0,
+      "volumeKt": 379.028,
+      "tradeValue1000USD": 108967.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 20.21
+    },
+    {
+      "id": "wheat:840:076",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "volumeTonnes": 371036.0,
+      "volumeKt": 371.036,
+      "tradeValue1000USD": 143424.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 11.44
+    },
+    {
+      "id": "wheat:100:724",
+      "from": {
+        "m49": "100",
+        "iso3": "BGR",
+        "name": "Bulgaria",
+        "lat": 43,
+        "lon": 25
+      },
+      "to": {
+        "m49": "724",
+        "iso3": "ESP",
+        "name": "Spain",
+        "lat": 40,
+        "lon": -4
+      },
+      "volumeTonnes": 367015.16,
+      "volumeKt": 367.015,
+      "tradeValue1000USD": 118958.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 13.16
+    },
+    {
+      "id": "wheat:428:682",
+      "from": {
+        "m49": "428",
+        "iso3": "LVA",
+        "name": "Latvia",
+        "lat": 57,
+        "lon": 25
+      },
+      "to": {
+        "m49": "682",
+        "iso3": "SAU",
+        "name": "Saudi Arabia",
+        "lat": 25,
+        "lon": 45
+      },
+      "volumeTonnes": 366231.7,
+      "volumeKt": 366.232,
+      "tradeValue1000USD": 142629.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 17.89
+    },
+    {
+      "id": "wheat:840:360",
+      "from": {
+        "m49": "840",
+        "iso3": "USA",
+        "name": "United States of America",
+        "lat": 38,
+        "lon": -97
+      },
+      "to": {
+        "m49": "360",
+        "iso3": "IDN",
+        "name": "Indonesia",
+        "lat": -5,
+        "lon": 120
+      },
+      "volumeTonnes": 366131.29,
+      "volumeKt": 366.131,
+      "tradeValue1000USD": 130176.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 6.7
+    },
+    {
+      "id": "wheat:076:704",
+      "from": {
+        "m49": "076",
+        "iso3": "BRA",
+        "name": "Brazil",
+        "lat": -10,
+        "lon": -55
+      },
+      "to": {
+        "m49": "704",
+        "iso3": "VNM",
+        "name": "Viet Nam",
+        "lat": 16.16667,
+        "lon": 107.83333
+      },
+      "volumeTonnes": 362390.26,
+      "volumeKt": 362.39,
+      "tradeValue1000USD": 115868.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 10.94
+    },
+    {
+      "id": "wheat:643:051",
+      "from": {
+        "m49": "643",
+        "iso3": "RUS",
+        "name": "Russian Federation",
+        "lat": 60,
+        "lon": 100
+      },
+      "to": {
+        "m49": "051",
+        "iso3": "ARM",
+        "name": "Armenia",
+        "lat": 40,
+        "lon": 45
+      },
+      "volumeTonnes": 360783.61,
+      "volumeKt": 360.784,
+      "tradeValue1000USD": 101010.0,
+      "tradeValueBasis": "import_cif",
+      "quantitySource": "mirror_import",
+      "flag": "A",
+      "mirrorDisagreementPct": null
+    },
+    {
+      "id": "wheat:705:380",
+      "from": {
+        "m49": "705",
+        "iso3": "SVN",
+        "name": "Slovenia",
+        "lat": 46.11667,
+        "lon": 14.81667
+      },
+      "to": {
+        "m49": "380",
+        "iso3": "ITA",
+        "name": "Italy",
+        "lat": 42.83333,
+        "lon": 12.83333
+      },
+      "volumeTonnes": 356792.86,
+      "volumeKt": 356.793,
+      "tradeValue1000USD": 132935.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 10.01
+    },
+    {
+      "id": "wheat:032:478",
+      "from": {
+        "m49": "032",
+        "iso3": "ARG",
+        "name": "Argentina",
+        "lat": -34,
+        "lon": -64
+      },
+      "to": {
+        "m49": "478",
+        "iso3": "MRT",
+        "name": "Mauritania",
+        "lat": 20,
+        "lon": -12
+      },
+      "volumeTonnes": 356545.0,
+      "volumeKt": 356.545,
+      "tradeValue1000USD": 103684.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 17.01
+    },
+    {
+      "id": "wheat:428:724",
+      "from": {
+        "m49": "428",
+        "iso3": "LVA",
+        "name": "Latvia",
+        "lat": 57,
+        "lon": 25
+      },
+      "to": {
+        "m49": "724",
+        "iso3": "ESP",
+        "name": "Spain",
+        "lat": 40,
+        "lon": -4
+      },
+      "volumeTonnes": 354062.78,
+      "volumeKt": 354.063,
+      "tradeValue1000USD": 121388.0,
+      "tradeValueBasis": "export_fob",
+      "quantitySource": "reported_export",
+      "flag": "A",
+      "mirrorDisagreementPct": 0.42
+    }
+  ]
+}
