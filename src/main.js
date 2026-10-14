@@ -1,7 +1,7 @@
 import { createStandaloneApplication } from './standalone/application.js';
 import { describeError } from './standalone/errors.js';
 import { installEarthSpin } from './ui/earthSpin.js';
-import { installResilienceLab } from './ui/resilienceLab.js';
+import { installMultiCropResilience } from './ui/resilienceMultiCrop.js';
 
 const application = createStandaloneApplication({
   googleApiKey: import.meta.env.GOOGLE_MAPS_API_KEY,
@@ -11,7 +11,7 @@ const application = createStandaloneApplication({
 
 application.start().then(({ scene, data }) => {
   const cleanupSpin = installEarthSpin(scene.viewer);
-  const cleanupLab = installResilienceLab({ viewer: scene.viewer, dataManager: data.dataManager });
+  const cleanupLab = installMultiCropResilience({ viewer: scene.viewer, dataManager: data.dataManager });
   let unsubscribe = () => {};
   unsubscribe = application.subscribe(({ status }) => {
     if (status === 'destroying' || status === 'destroyed' || status === 'failed') {

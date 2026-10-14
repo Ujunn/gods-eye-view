@@ -41,6 +41,7 @@ export function installEarthSpin(viewer) {
   let lastTime = 0;
   let resumeAfter = 0;
   const heldPointers = new Set();
+  const suspensionOwners = new Set();
   let removeFrameListener = null;
   let celestialSnapshot = null;
   const rotatedPosition = new Cesium.Cartesian3();
@@ -157,7 +158,7 @@ export function installEarthSpin(viewer) {
   root.append(header, settings);
 
   function syncUI() {
-    button.textContent = enabled ? '⟳ 镜头环绕 · ON' : '⟳ 镜头环绕 · OFF';
+    button.textContent = enabled && suspensionOwners.size ? '⟳ 镜头环绕 · 暂停' : enabled ? '⟳ 镜头环绕 · ON' : '⟳ 镜头环绕 · OFF';
     button.setAttribute('aria-pressed', String(enabled));
     readout.textContent = `${periodMs / 1000} s`;
     range.value = String(periodMs / 1000);
@@ -192,7 +193,7 @@ export function installEarthSpin(viewer) {
     const elapsed = Math.min(MAX_FRAME_DELTA_MS, Math.max(0, now - lastTime));
     lastTime = now;
     if (!enabled || destroyed || viewer.isDestroyed?.()) return;
-    if (heldPointers.size || now < resumeAfter) return;
+    if (heldPointers.size || suspensionOwners.size || now < resumeAfter) return;
     if (viewer.scene.mode !== Cesium.SceneMode.SCENE3D) return;
     if (viewer.trackedEntity) return;
     const camera = viewer.camera;
@@ -253,6 +254,21 @@ export function installEarthSpin(viewer) {
     resumeAfter = performance.now() + (Number.isFinite(duration) ? Math.max(350,Math.min(duration,15000)) : 2500);
     lastTime = 0;
   }
+  function onSuspend(event) {
+    const owner=event.detail?.owner;
+    if(typeof owner!=='string'||!owner)return;
+    suspensionOwners.add(owner);
+    lastTime=0;
+    syncUI();
+  }
+  function onResume(event) {
+    const owner=event.detail?.owner;
+    if(typeof owner!=='string'||!owner)return;
+    suspensionOwners.delete(owner);
+    lastTime=0;
+    resumeAfter=performance.now()+350;
+    syncUI();
+  }
   function onToggle() { setEnabled(!enabled); }
   function setSettingsOpen(next) {
     settings.hidden = !next;
@@ -280,6 +296,8 @@ export function installEarthSpin(viewer) {
   window.addEventListener('pointercancel', onUp, true);
   window.addEventListener('blur', onBlur);
   window.addEventListener('gev:earth-spin-pause', onExternalPause);
+  window.addEventListener('gev:earth-spin-suspend', onSuspend);
+  window.addEventListener('gev:earth-spin-resume', onResume);
   viewer.container.addEventListener('wheel', pauseBriefly, { capture: true, passive: true });
   document.body.appendChild(root);
   syncUI();
@@ -298,6 +316,8 @@ export function installEarthSpin(viewer) {
     window.removeEventListener('pointercancel', onUp, true);
     window.removeEventListener('blur', onBlur);
     window.removeEventListener('gev:earth-spin-pause', onExternalPause);
+    window.removeEventListener('gev:earth-spin-suspend', onSuspend);
+    window.removeEventListener('gev:earth-spin-resume', onResume);
     viewer.container.removeEventListener('wheel', pauseBriefly, true);
     root.remove();
     style.remove();
